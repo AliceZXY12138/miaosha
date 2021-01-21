@@ -17,11 +17,11 @@ vue + elementUI + axios / thinkphp + X-admin / go
 #### Go
 - 用户端秒杀商品时使用`go`操作`rabbitMQ`，相关文件均在`go`文件夹中
 - 安装、配置GO环境 / 生成可执行文件
-- 运行`mysend.go`(需开放5000端口),`myreceive.go`（或其对应的可执行文件）
+- 运行`mysend.go`(需开放8080端口),`myreceive.go`（或其对应的可执行文件）
 
 #### 其他
 - 安装JWT
 - 安装redis
 - 安装rabbitMQ（用户名为root，密码为18273645）
-- 开放5000、3306、6379、5672、15672等端口
+- 开放8080、3306、6379、5672、15672等端口
 
