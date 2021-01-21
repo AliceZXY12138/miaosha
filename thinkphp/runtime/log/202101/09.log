@@ -1,0 +1,619 @@
+---------------------------------------------------------------
+[ 2021-01-09T00:02:48+08:00 ] 192.241.193.85 GET 101.37.13.45/manager/html
+[运行时间：0.035653s] [吞吐率：28.05req/s] [内存消耗：1,831.93kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'manager',
+    1 => 'html',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/5.0 zgrab/0.x',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-09T01:14:49+08:00 ] 185.239.242.76 POST 101.37.13.45:80/boaform/admin/formLogin
+[运行时间：0.019818s] [吞吐率：50.46req/s] [内存消耗：1,834.16kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'boaform',
+    1 => 'admin',
+    2 => 'formLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://101.37.13.45:80',
+  'connection' => 'keep-alive',
+  'referer' => 'http://101.37.13.45:80/admin/login.asp',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '29',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'psd' => 'Feefifofum',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-09T01:54:44+08:00 ] 209.141.60.195 GET 101.37.13.45:80/config/getuser?index=0
+[运行时间：0.020365s] [吞吐率：49.10req/s] [内存消耗：1,833.66kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'config',
+    1 => 'getuser',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'index' => '0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-09T02:50:09+08:00 ] 51.222.107.203 GET 101.37.13.45/.env
+[运行时间：0.016516s] [吞吐率：60.55req/s] [内存消耗：1,832.51kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '.env',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-09T02:50:09+08:00 ] 51.222.107.203 POST 101.37.13.45/
+[运行时间：0.015659s] [吞吐率：63.86req/s] [内存消耗：1,758.98kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '20',
+)
+[ info ] [ PARAM ] array (
+  '0x' => 
+  array (
+    0 => 'androxgh0st',
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-09T02:56:48+08:00 ] 13.78.166.23 GET 101.37.13.45/.env
+[运行时间：0.018253s] [吞吐率：54.79req/s] [内存消耗：1,832.48kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '.env',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-09T02:56:48+08:00 ] 13.78.166.23 POST 101.37.13.45/
+[运行时间：0.015497s] [吞吐率：64.53req/s] [内存消耗：1,758.98kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '20',
+)
+[ info ] [ PARAM ] array (
+  '0x' => 
+  array (
+    0 => 'androxgh0st',
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-09T03:37:51+08:00 ] 91.204.250.52 GET 101.37.13.45:80/
+[运行时间：0.015160s] [吞吐率：65.96req/s] [内存消耗：1,758.87kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-09T04:59:07+08:00 ] 83.243.66.2 GET 101.37.13.45:80/
+[运行时间：0.014693s] [吞吐率：68.06req/s] [内存消耗：1,758.86kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-09T07:52:16+08:00 ] 47.101.200.88 GET 101.37.13.45/
+[运行时间：0.016093s] [吞吐率：62.14req/s] [内存消耗：1,759.05kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'host' => '101.37.13.45',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-09T09:22:14+08:00 ] 193.118.53.202 GET 101.37.13.45/Telerik.Web.UI.WebResource.axd?type=rau
+[运行时间：0.020348s] [吞吐率：49.14req/s] [内存消耗：1,832.81kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Telerik.Web.UI.WebResource.axd',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'rau',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-09T09:26:58+08:00 ] 13.72.102.159 GET 101.37.13.45/
+[运行时间：0.015161s] [吞吐率：65.96req/s] [内存消耗：1,758.50kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'user-agent' => 'curl/7.58.0',
+  'accept' => '*/*',
+  'host' => '101.37.13.45',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-09T13:31:28+08:00 ] 209.141.60.195 GET 101.37.13.45:80/config/getuser?index=0
+[运行时间：0.016684s] [吞吐率：59.94req/s] [内存消耗：1,833.66kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'config',
+    1 => 'getuser',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'index' => '0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-09T14:19:24+08:00 ] 213.91.178.131 GET 101.37.13.45:80/
+[运行时间：0.016222s] [吞吐率：61.64req/s] [内存消耗：1,758.87kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-09T15:22:45+08:00 ] 36.67.233.13 GET 101.37.13.45:80/
+[运行时间：0.016071s] [吞吐率：62.22req/s] [内存消耗：1,758.87kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-09T15:30:33+08:00 ] 81.15.197.78 GET 101.37.13.45:80/
+[运行时间：0.015702s] [吞吐率：63.69req/s] [内存消耗：1,758.87kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-09T15:41:18+08:00 ] 187.228.243.104 GET 101.37.13.45:80/
+[运行时间：0.014671s] [吞吐率：68.16req/s] [内存消耗：1,758.86kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-09T17:09:35+08:00 ] 72.214.100.178 GET 101.37.13.45:80/
+[运行时间：0.014587s] [吞吐率：68.55req/s] [内存消耗：1,758.87kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-09T20:17:22+08:00 ] 119.29.61.53 HEAD 101.37.13.45/
+[运行时间：0.014816s] [吞吐率：67.49req/s] [内存消耗：1,758.46kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'referer' => 'http://101.37.13.45',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2)',
+  'host' => '101.37.13.45',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-09T20:32:25+08:00 ] 194.169.241.170 GET 101.37.13.45/
+[运行时间：0.016662s] [吞吐率：60.02req/s] [内存消耗：1,758.84kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/5.0 zgrab/0.x',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-09T20:52:22+08:00 ] 178.32.197.86 GET 101.37.13.45/
+[运行时间：0.015273s] [吞吐率：65.47req/s] [内存消耗：1,759.31kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-US,en;q=0.5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-09T20:59:07+08:00 ] 192.241.225.9 GET 101.37.13.45/
+[运行时间：0.015318s] [吞吐率：65.28req/s] [内存消耗：1,758.84kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/5.0 zgrab/0.x',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-09T21:11:33+08:00 ] 183.136.225.46 GET 101.37.13.45:80/
+[运行时间：0.016347s] [吞吐率：61.17req/s] [内存消耗：1,758.95kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-09T21:11:33+08:00 ] 183.136.225.46 GET 101.37.13.45:80/
+[运行时间：0.015165s] [吞吐率：65.94req/s] [内存消耗：1,759.13kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 QIHU 360SE',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-09T23:39:29+08:00 ] 202.166.152.160 GET 101.37.13.45/
+[运行时间：0.014667s] [吞吐率：68.18req/s] [内存消耗：1,758.20kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File

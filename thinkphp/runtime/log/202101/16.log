@@ -1,0 +1,1594 @@
+---------------------------------------------------------------
+[ 2021-01-16T00:04:42+08:00 ] 115.27.209.67 GET 101.37.13.45/customer/login/index
+[运行时间：0.641315s] [吞吐率：1.56req/s] [内存消耗：3,338.52kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'customer_name=hello; customer_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDcwNDA3MiwibmJmIjoxNjEwNzA0MDcyLCJleHAiOjE2MTA3MDUyNzJ9.Xp4-gyrVC9AR85TEtcPo-gx7I6OjA4d5wRHxLZwwcfI; SESSIONID=9eace996-5913-487e-935f-dc1b85fd2b92.Tp4apLxsE7jLPpPBkiRxDRvIK2Y; order=id%20desc; Path=/www/wwwroot/101.37.13.45/public/file; layers=4; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; force=0; load_page=null; load_search=undefined; load_type=0; softType=0; pnull=1; distribution=ubuntu; sites_path=/www/wwwroot; BatchSelected=null; BatchPaste=2; copyFileName=null; cutFileName=null; vcodesum=12; request_token=dpcwzaJhFc8TJlVzpYEoMim69GqDy5Z4Jg4FK3FKt7kCWBwi; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; rank=a',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\customer\controller\Login->index[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/101.37.13.45/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014479s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.007595s ]
+[ sql ] [ SQL ] SELECT `customer_id`,`customer_name`,`token` FROM `customer` WHERE  `customer_name` = 'hello' LIMIT 1 [ RunTime:0.000725s ]
+---------------------------------------------------------------
+[ 2021-01-16T00:04:45+08:00 ] 115.27.209.67 GET 101.37.13.45/customer/main/index.html
+[运行时间：0.119492s] [吞吐率：8.37req/s] [内存消耗：3,258.94kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'main',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'cookie' => 'SESSIONID=9eace996-5913-487e-935f-dc1b85fd2b92.Tp4apLxsE7jLPpPBkiRxDRvIK2Y; ltd_end=-1; order=id%20desc; pro_end=-1; serverType=apache; uploadSize=1073741824; customer_name=hello; customer_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDcwNDA3MiwibmJmIjoxNjEwNzA0MDcyLCJleHAiOjE2MTA3MDUyNzJ9.Xp4-gyrVC9AR85TEtcPo-gx7I6OjA4d5wRHxLZwwcfI; Path=/www/wwwroot/101.37.13.45/public/file; layers=4; memSize=1839; force=0; load_page=null; load_search=undefined; load_type=0; softType=0; pnull=1; distribution=ubuntu; sites_path=/www/wwwroot; BatchSelected=null; BatchPaste=2; copyFileName=null; cutFileName=null; vcodesum=12; request_token=dpcwzaJhFc8TJlVzpYEoMim69GqDy5Z4Jg4FK3FKt7kCWBwi; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; rank=a',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/customer/login/index',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\customer\controller\Main->index[ /www/wwwroot/101.37.13.45/application/customer/controller/Main.php ]
+[ info ] [ VIEW ] /www/wwwroot/101.37.13.45/public/../application/customer/view/main/index.html [ array (
+  0 => 'username',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000443s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.002183s ]
+[ sql ] [ SQL ] SELECT `customer_id`,`customer_name`,`token` FROM `customer` WHERE  `customer_name` = 'hello' LIMIT 1 [ RunTime:0.000417s ]
+---------------------------------------------------------------
+[ 2021-01-16T00:04:53+08:00 ] 115.27.209.67 POST 101.37.13.45/customer/main/goods
+[运行时间：0.049491s] [吞吐率：20.21req/s] [内存消耗：3,262.94kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'main',
+    2 => 'goods',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'cookie' => 'SESSIONID=9eace996-5913-487e-935f-dc1b85fd2b92.Tp4apLxsE7jLPpPBkiRxDRvIK2Y; ltd_end=-1; memSize=1839; order=id%20desc; pro_end=-1; serverType=apache; Path=/www/wwwroot/101.37.13.45/public/file; uploadSize=1073741824; customer_name=hello; customer_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDcwNDA3MiwibmJmIjoxNjEwNzA0MDcyLCJleHAiOjE2MTA3MDUyNzJ9.Xp4-gyrVC9AR85TEtcPo-gx7I6OjA4d5wRHxLZwwcfI; layers=4; force=0; load_page=null; load_search=undefined; load_type=0; softType=0; pnull=1; distribution=ubuntu; sites_path=/www/wwwroot; BatchSelected=null; BatchPaste=2; copyFileName=null; cutFileName=null; vcodesum=12; request_token=dpcwzaJhFc8TJlVzpYEoMim69GqDy5Z4Jg4FK3FKt7kCWBwi; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; rank=a',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://101.37.13.45/customer/main/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\customer\controller\Main->goods[ /www/wwwroot/101.37.13.45/application/customer/controller/Main.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000448s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.002230s ]
+[ sql ] [ SQL ] SELECT `customer_id`,`customer_name`,`token` FROM `customer` WHERE  `customer_name` = 'hello' LIMIT 1 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT `good_id`,`goodname`,`image`,`description`,`stock` FROM `goods` WHERE  `status` = 1 [ RunTime:0.000218s ]
+---------------------------------------------------------------
+[ 2021-01-16T00:09:18+08:00 ] 115.27.209.67 GET 101.37.13.45/customer/main/index.html
+[运行时间：0.127919s] [吞吐率：7.82req/s] [内存消耗：3,259.52kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'main',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'cookie' => 'SESSIONID=9eace996-5913-487e-935f-dc1b85fd2b92.Tp4apLxsE7jLPpPBkiRxDRvIK2Y; memSize=1839; ltd_end=-1; order=id%20desc; pro_end=-1; serverType=apache; sites_path=/www/wwwroot; backup_path=/www/backup; vcodesum=18; customer_name=hello; Path=/www/wwwroot/101.37.13.45/public/file; uploadSize=1073741824; customer_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDcwNDA3MiwibmJmIjoxNjEwNzA0MDcyLCJleHAiOjE2MTA3MDUyNzJ9.Xp4-gyrVC9AR85TEtcPo-gx7I6OjA4d5wRHxLZwwcfI; layers=4; force=0; load_page=null; load_search=undefined; load_type=0; softType=0; pnull=1; distribution=ubuntu; BatchSelected=null; BatchPaste=2; copyFileName=null; cutFileName=null; request_token=dpcwzaJhFc8TJlVzpYEoMim69GqDy5Z4Jg4FK3FKt7kCWBwi; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; rank=a',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/customer/login/index',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\customer\controller\Main->index[ /www/wwwroot/101.37.13.45/application/customer/controller/Main.php ]
+[ info ] [ VIEW ] /www/wwwroot/101.37.13.45/public/../application/customer/view/main/index.html [ array (
+  0 => 'username',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000496s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.019042s ]
+[ sql ] [ SQL ] SELECT `customer_id`,`customer_name`,`token` FROM `customer` WHERE  `customer_name` = 'hello' LIMIT 1 [ RunTime:0.001875s ]
+---------------------------------------------------------------
+[ 2021-01-16T00:09:20+08:00 ] 115.27.209.67 POST 101.37.13.45/customer/main/goods
+[运行时间：0.089323s] [吞吐率：11.20req/s] [内存消耗：3,263.37kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'main',
+    2 => 'goods',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'cookie' => 'SESSIONID=9eace996-5913-487e-935f-dc1b85fd2b92.Tp4apLxsE7jLPpPBkiRxDRvIK2Y; customer_name=hello; memSize=1839; ltd_end=-1; order=id%20desc; pro_end=-1; serverType=apache; sites_path=/www/wwwroot; backup_path=/www/backup; vcodesum=18; Path=/www/wwwroot/101.37.13.45/public/file; uploadSize=1073741824; customer_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDcwNDA3MiwibmJmIjoxNjEwNzA0MDcyLCJleHAiOjE2MTA3MDUyNzJ9.Xp4-gyrVC9AR85TEtcPo-gx7I6OjA4d5wRHxLZwwcfI; layers=4; force=0; load_page=null; load_search=undefined; load_type=0; softType=0; pnull=1; distribution=ubuntu; BatchSelected=null; BatchPaste=2; copyFileName=null; cutFileName=null; request_token=dpcwzaJhFc8TJlVzpYEoMim69GqDy5Z4Jg4FK3FKt7kCWBwi; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; rank=a',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://101.37.13.45/customer/main/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\customer\controller\Main->goods[ /www/wwwroot/101.37.13.45/application/customer/controller/Main.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000564s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.000801s ]
+[ sql ] [ SQL ] SELECT `customer_id`,`customer_name`,`token` FROM `customer` WHERE  `customer_name` = 'hello' LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.053209s ]
+[ sql ] [ SQL ] SELECT `good_id`,`goodname`,`image`,`description`,`stock` FROM `goods` WHERE  `status` = 1 [ RunTime:0.000431s ]
+---------------------------------------------------------------
+[ 2021-01-16T00:09:21+08:00 ] 115.27.209.67 GET 101.37.13.45/customer/order/index
+[运行时间：0.040508s] [吞吐率：24.69req/s] [内存消耗：3,447.66kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'order',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'cookie' => 'customer_name=hello; SESSIONID=9eace996-5913-487e-935f-dc1b85fd2b92.Tp4apLxsE7jLPpPBkiRxDRvIK2Y; memSize=1839; ltd_end=-1; order=id%20desc; pro_end=-1; serverType=apache; sites_path=/www/wwwroot; backup_path=/www/backup; vcodesum=18; Path=/www/wwwroot/101.37.13.45/public/file; uploadSize=1073741824; customer_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDcwNDA3MiwibmJmIjoxNjEwNzA0MDcyLCJleHAiOjE2MTA3MDUyNzJ9.Xp4-gyrVC9AR85TEtcPo-gx7I6OjA4d5wRHxLZwwcfI; layers=4; force=0; load_page=null; load_search=undefined; load_type=0; softType=0; pnull=1; distribution=ubuntu; BatchSelected=null; BatchPaste=2; copyFileName=null; cutFileName=null; request_token=dpcwzaJhFc8TJlVzpYEoMim69GqDy5Z4Jg4FK3FKt7kCWBwi; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; rank=a',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/customer/main/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\customer\controller\Order->index[ /www/wwwroot/101.37.13.45/application/customer/controller/Order.php ]
+[ info ] [ VIEW ] /www/wwwroot/101.37.13.45/public/../application/customer/view/order/index.html [ array (
+  0 => 'username',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000664s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.000745s ]
+[ sql ] [ SQL ] SELECT `customer_id`,`customer_name`,`token` FROM `customer` WHERE  `customer_name` = 'hello' LIMIT 1 [ RunTime:0.000254s ]
+---------------------------------------------------------------
+[ 2021-01-16T00:09:44+08:00 ] 115.27.209.67 GET 101.37.13.45/customer/order/index
+[运行时间：0.070855s] [吞吐率：14.11req/s] [内存消耗：3,447.66kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'order',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'cookie' => 'SESSIONID=9eace996-5913-487e-935f-dc1b85fd2b92.Tp4apLxsE7jLPpPBkiRxDRvIK2Y; memSize=1839; customer_name=hello; ltd_end=-1; order=id%20desc; pro_end=-1; serverType=apache; sites_path=/www/wwwroot; backup_path=/www/backup; vcodesum=18; Path=/www/wwwroot/101.37.13.45/public/file; uploadSize=1073741824; customer_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDcwNDA3MiwibmJmIjoxNjEwNzA0MDcyLCJleHAiOjE2MTA3MDUyNzJ9.Xp4-gyrVC9AR85TEtcPo-gx7I6OjA4d5wRHxLZwwcfI; layers=4; force=0; load_page=null; load_search=undefined; load_type=0; softType=0; pnull=1; distribution=ubuntu; BatchSelected=null; BatchPaste=2; copyFileName=null; cutFileName=null; request_token=dpcwzaJhFc8TJlVzpYEoMim69GqDy5Z4Jg4FK3FKt7kCWBwi; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; rank=a',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/customer/main/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\customer\controller\Order->index[ /www/wwwroot/101.37.13.45/application/customer/controller/Order.php ]
+[ info ] [ VIEW ] /www/wwwroot/101.37.13.45/public/../application/customer/view/order/index.html [ array (
+  0 => 'username',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000556s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.000922s ]
+[ sql ] [ SQL ] SELECT `customer_id`,`customer_name`,`token` FROM `customer` WHERE  `customer_name` = 'hello' LIMIT 1 [ RunTime:0.000245s ]
+---------------------------------------------------------------
+[ 2021-01-16T00:17:47+08:00 ] 115.27.209.67 GET 101.37.13.45/customer/order/index
+[运行时间：0.055742s] [吞吐率：17.94req/s] [内存消耗：3,451.29kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'order',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'cookie' => 'SESSIONID=9eace996-5913-487e-935f-dc1b85fd2b92.Tp4apLxsE7jLPpPBkiRxDRvIK2Y; memSize=1839; customer_name=hello; ltd_end=-1; order=id%20desc; pro_end=-1; serverType=apache; sites_path=/www/wwwroot; backup_path=/www/backup; vcodesum=18; Path=/www/wwwroot/101.37.13.45/public/file; uploadSize=1073741824; customer_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDcwNDA3MiwibmJmIjoxNjEwNzA0MDcyLCJleHAiOjE2MTA3MDUyNzJ9.Xp4-gyrVC9AR85TEtcPo-gx7I6OjA4d5wRHxLZwwcfI; layers=4; force=0; load_page=null; load_search=undefined; load_type=0; softType=0; pnull=1; distribution=ubuntu; BatchSelected=null; BatchPaste=2; copyFileName=null; cutFileName=null; request_token=dpcwzaJhFc8TJlVzpYEoMim69GqDy5Z4Jg4FK3FKt7kCWBwi; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; rank=a',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/customer/main/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\customer\controller\Order->index[ /www/wwwroot/101.37.13.45/application/customer/controller/Order.php ]
+[ info ] [ VIEW ] /www/wwwroot/101.37.13.45/public/../application/customer/view/order/index.html [ array (
+  0 => 'username',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000999s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.000973s ]
+[ sql ] [ SQL ] SELECT `customer_id`,`customer_name`,`token` FROM `customer` WHERE  `customer_name` = 'hello' LIMIT 1 [ RunTime:0.000366s ]
+---------------------------------------------------------------
+[ 2021-01-16T00:17:48+08:00 ] 115.27.209.67 POST 101.37.13.45/customer/order/myorders
+[运行时间：0.031870s] [吞吐率：31.38req/s] [内存消耗：3,259.48kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'order',
+    2 => 'myorders',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'cookie' => 'SESSIONID=9eace996-5913-487e-935f-dc1b85fd2b92.Tp4apLxsE7jLPpPBkiRxDRvIK2Y; customer_name=hello; memSize=1839; ltd_end=-1; order=id%20desc; pro_end=-1; serverType=apache; sites_path=/www/wwwroot; backup_path=/www/backup; vcodesum=18; Path=/www/wwwroot/101.37.13.45/public/file; uploadSize=1073741824; customer_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDcwNDA3MiwibmJmIjoxNjEwNzA0MDcyLCJleHAiOjE2MTA3MDUyNzJ9.Xp4-gyrVC9AR85TEtcPo-gx7I6OjA4d5wRHxLZwwcfI; layers=4; force=0; load_page=null; load_search=undefined; load_type=0; softType=0; pnull=1; distribution=ubuntu; BatchSelected=null; BatchPaste=2; copyFileName=null; cutFileName=null; request_token=dpcwzaJhFc8TJlVzpYEoMim69GqDy5Z4Jg4FK3FKt7kCWBwi; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; rank=a',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://101.37.13.45/customer/order/index',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\customer\controller\Order->myorders[ /www/wwwroot/101.37.13.45/application/customer/controller/Order.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000391s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.000720s ]
+[ sql ] [ SQL ] SELECT `customer_id`,`customer_name`,`token` FROM `customer` WHERE  `customer_name` = 'hello' LIMIT 1 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.003374s ]
+[ sql ] [ SQL ] SELECT `customer_name`,`goodname`,`num`,`time` FROM `orders` `o` INNER JOIN `goods` `g` ON `o`.`good_id`=`g`.`good_id` WHERE  `customer_name` = 'hello' [ RunTime:0.000386s ]
+---------------------------------------------------------------
+[ 2021-01-16T00:19:30+08:00 ] 115.27.209.67 GET 101.37.13.45/customer/order/index
+[运行时间：0.029125s] [吞吐率：34.33req/s] [内存消耗：3,257.46kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'order',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'cookie' => 'SESSIONID=9eace996-5913-487e-935f-dc1b85fd2b92.Tp4apLxsE7jLPpPBkiRxDRvIK2Y; memSize=1839; customer_name=hello; ltd_end=-1; order=id%20desc; pro_end=-1; serverType=apache; sites_path=/www/wwwroot; backup_path=/www/backup; vcodesum=18; Path=/www/wwwroot/101.37.13.45/public/file; uploadSize=1073741824; customer_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDcwNDA3MiwibmJmIjoxNjEwNzA0MDcyLCJleHAiOjE2MTA3MDUyNzJ9.Xp4-gyrVC9AR85TEtcPo-gx7I6OjA4d5wRHxLZwwcfI; layers=4; force=0; load_page=null; load_search=undefined; load_type=0; softType=0; pnull=1; distribution=ubuntu; BatchSelected=null; BatchPaste=2; copyFileName=null; cutFileName=null; request_token=dpcwzaJhFc8TJlVzpYEoMim69GqDy5Z4Jg4FK3FKt7kCWBwi; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; rank=a',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/customer/main/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\customer\controller\Order->index[ /www/wwwroot/101.37.13.45/application/customer/controller/Order.php ]
+[ info ] [ VIEW ] /www/wwwroot/101.37.13.45/public/../application/customer/view/order/index.html [ array (
+  0 => 'username',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001187s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.001102s ]
+[ sql ] [ SQL ] SELECT `customer_id`,`customer_name`,`token` FROM `customer` WHERE  `customer_name` = 'hello' LIMIT 1 [ RunTime:0.000231s ]
+---------------------------------------------------------------
+[ 2021-01-16T00:19:31+08:00 ] 115.27.209.67 POST 101.37.13.45/customer/order/myorders
+[运行时间：0.035872s] [吞吐率：27.88req/s] [内存消耗：3,261.03kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'order',
+    2 => 'myorders',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'cookie' => 'customer_name=hello; SESSIONID=9eace996-5913-487e-935f-dc1b85fd2b92.Tp4apLxsE7jLPpPBkiRxDRvIK2Y; memSize=1839; ltd_end=-1; order=id%20desc; pro_end=-1; serverType=apache; sites_path=/www/wwwroot; backup_path=/www/backup; vcodesum=18; Path=/www/wwwroot/101.37.13.45/public/file; uploadSize=1073741824; customer_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDcwNDA3MiwibmJmIjoxNjEwNzA0MDcyLCJleHAiOjE2MTA3MDUyNzJ9.Xp4-gyrVC9AR85TEtcPo-gx7I6OjA4d5wRHxLZwwcfI; layers=4; force=0; load_page=null; load_search=undefined; load_type=0; softType=0; pnull=1; distribution=ubuntu; BatchSelected=null; BatchPaste=2; copyFileName=null; cutFileName=null; request_token=dpcwzaJhFc8TJlVzpYEoMim69GqDy5Z4Jg4FK3FKt7kCWBwi; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; rank=a',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://101.37.13.45/customer/order/index',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\customer\controller\Order->myorders[ /www/wwwroot/101.37.13.45/application/customer/controller/Order.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007491s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.000693s ]
+[ sql ] [ SQL ] SELECT `customer_id`,`customer_name`,`token` FROM `customer` WHERE  `customer_name` = 'hello' LIMIT 1 [ RunTime:0.000223s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.000526s ]
+[ sql ] [ SQL ] SELECT `customer_name`,`goodname`,`num`,`time` FROM `orders` `o` INNER JOIN `goods` `g` ON `o`.`good_id`=`g`.`good_id` WHERE  `customer_name` = 'hello' [ RunTime:0.000199s ]
+---------------------------------------------------------------
+[ 2021-01-16T00:20:23+08:00 ] 115.27.209.67 GET 101.37.13.45/customer/order/index
+[运行时间：0.028906s] [吞吐率：34.60req/s] [内存消耗：3,257.46kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'order',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'cookie' => 'SESSIONID=9eace996-5913-487e-935f-dc1b85fd2b92.Tp4apLxsE7jLPpPBkiRxDRvIK2Y; memSize=1839; customer_name=hello; ltd_end=-1; order=id%20desc; pro_end=-1; serverType=apache; sites_path=/www/wwwroot; backup_path=/www/backup; vcodesum=18; Path=/www/wwwroot/101.37.13.45/public/file; uploadSize=1073741824; customer_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDcwNDA3MiwibmJmIjoxNjEwNzA0MDcyLCJleHAiOjE2MTA3MDUyNzJ9.Xp4-gyrVC9AR85TEtcPo-gx7I6OjA4d5wRHxLZwwcfI; layers=4; force=0; load_page=null; load_search=undefined; load_type=0; softType=0; pnull=1; distribution=ubuntu; BatchSelected=null; BatchPaste=2; copyFileName=null; cutFileName=null; request_token=dpcwzaJhFc8TJlVzpYEoMim69GqDy5Z4Jg4FK3FKt7kCWBwi; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; rank=a',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/customer/main/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\customer\controller\Order->index[ /www/wwwroot/101.37.13.45/application/customer/controller/Order.php ]
+[ info ] [ VIEW ] /www/wwwroot/101.37.13.45/public/../application/customer/view/order/index.html [ array (
+  0 => 'username',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000352s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.000752s ]
+[ sql ] [ SQL ] SELECT `customer_id`,`customer_name`,`token` FROM `customer` WHERE  `customer_name` = 'hello' LIMIT 1 [ RunTime:0.000236s ]
+---------------------------------------------------------------
+[ 2021-01-16T00:20:24+08:00 ] 115.27.209.67 POST 101.37.13.45/customer/order/myorders
+[运行时间：0.030990s] [吞吐率：32.27req/s] [内存消耗：3,261.03kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'order',
+    2 => 'myorders',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'cookie' => 'customer_name=hello; SESSIONID=9eace996-5913-487e-935f-dc1b85fd2b92.Tp4apLxsE7jLPpPBkiRxDRvIK2Y; memSize=1839; ltd_end=-1; order=id%20desc; pro_end=-1; serverType=apache; sites_path=/www/wwwroot; backup_path=/www/backup; vcodesum=18; Path=/www/wwwroot/101.37.13.45/public/file; uploadSize=1073741824; customer_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDcwNDA3MiwibmJmIjoxNjEwNzA0MDcyLCJleHAiOjE2MTA3MDUyNzJ9.Xp4-gyrVC9AR85TEtcPo-gx7I6OjA4d5wRHxLZwwcfI; layers=4; force=0; load_page=null; load_search=undefined; load_type=0; softType=0; pnull=1; distribution=ubuntu; BatchSelected=null; BatchPaste=2; copyFileName=null; cutFileName=null; request_token=dpcwzaJhFc8TJlVzpYEoMim69GqDy5Z4Jg4FK3FKt7kCWBwi; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; rank=a',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://101.37.13.45/customer/order/index',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\customer\controller\Order->myorders[ /www/wwwroot/101.37.13.45/application/customer/controller/Order.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000391s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.000794s ]
+[ sql ] [ SQL ] SELECT `customer_id`,`customer_name`,`token` FROM `customer` WHERE  `customer_name` = 'hello' LIMIT 1 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.000531s ]
+[ sql ] [ SQL ] SELECT `customer_name`,`goodname`,`num`,`time` FROM `orders` `o` INNER JOIN `goods` `g` ON `o`.`good_id`=`g`.`good_id` WHERE  `customer_name` = 'hello' [ RunTime:0.000194s ]
+---------------------------------------------------------------
+[ 2021-01-16T00:39:23+08:00 ] 115.27.209.67 GET 101.37.13.45/customer/main/index
+[运行时间：0.052879s] [吞吐率：18.91req/s] [内存消耗：3,259.38kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'main',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'cookie' => 'SESSIONID=9eace996-5913-487e-935f-dc1b85fd2b92.Tp4apLxsE7jLPpPBkiRxDRvIK2Y; memSize=1839; customer_name=hello; ltd_end=-1; order=id%20desc; pro_end=-1; serverType=apache; sites_path=/www/wwwroot; backup_path=/www/backup; vcodesum=18; Path=/www/wwwroot/101.37.13.45/public/file; uploadSize=1073741824; customer_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDcwNDA3MiwibmJmIjoxNjEwNzA0MDcyLCJleHAiOjE2MTA3MDUyNzJ9.Xp4-gyrVC9AR85TEtcPo-gx7I6OjA4d5wRHxLZwwcfI; layers=4; force=0; load_page=null; load_search=undefined; load_type=0; softType=0; pnull=1; distribution=ubuntu; BatchSelected=null; BatchPaste=2; copyFileName=null; cutFileName=null; request_token=dpcwzaJhFc8TJlVzpYEoMim69GqDy5Z4Jg4FK3FKt7kCWBwi; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; rank=a',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/customer/order/index',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\customer\controller\Main->index[ /www/wwwroot/101.37.13.45/application/customer/controller/Main.php ]
+[ info ] [ VIEW ] /www/wwwroot/101.37.13.45/public/../application/customer/view/main/index.html [ array (
+  0 => 'username',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023435s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.000813s ]
+[ sql ] [ SQL ] SELECT `customer_id`,`customer_name`,`token` FROM `customer` WHERE  `customer_name` = 'hello' LIMIT 1 [ RunTime:0.000626s ]
+---------------------------------------------------------------
+[ 2021-01-16T00:39:25+08:00 ] 115.27.209.67 POST 101.37.13.45/customer/main/goods
+[运行时间：0.029617s] [吞吐率：33.76req/s] [内存消耗：3,262.95kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'main',
+    2 => 'goods',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'cookie' => 'SESSIONID=9eace996-5913-487e-935f-dc1b85fd2b92.Tp4apLxsE7jLPpPBkiRxDRvIK2Y; memSize=1839; customer_name=hello; ltd_end=-1; order=id%20desc; pro_end=-1; serverType=apache; sites_path=/www/wwwroot; backup_path=/www/backup; vcodesum=18; Path=/www/wwwroot/101.37.13.45/public/file; uploadSize=1073741824; customer_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDcwNDA3MiwibmJmIjoxNjEwNzA0MDcyLCJleHAiOjE2MTA3MDUyNzJ9.Xp4-gyrVC9AR85TEtcPo-gx7I6OjA4d5wRHxLZwwcfI; layers=4; force=0; load_page=null; load_search=undefined; load_type=0; softType=0; pnull=1; distribution=ubuntu; BatchSelected=null; BatchPaste=2; copyFileName=null; cutFileName=null; request_token=dpcwzaJhFc8TJlVzpYEoMim69GqDy5Z4Jg4FK3FKt7kCWBwi; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; rank=a',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://101.37.13.45/customer/main/index',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\customer\controller\Main->goods[ /www/wwwroot/101.37.13.45/application/customer/controller/Main.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001428s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.000737s ]
+[ sql ] [ SQL ] SELECT `customer_id`,`customer_name`,`token` FROM `customer` WHERE  `customer_name` = 'hello' LIMIT 1 [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SELECT `good_id`,`goodname`,`image`,`description`,`stock` FROM `goods` WHERE  `status` = 1 [ RunTime:0.000183s ]
+---------------------------------------------------------------
+[ 2021-01-16T01:15:55+08:00 ] 115.27.209.67 GET 101.37.13.45/customer/main/index
+[运行时间：0.037604s] [吞吐率：26.59req/s] [内存消耗：3,345.40kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'main',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'cookie' => 'SESSIONID=9eace996-5913-487e-935f-dc1b85fd2b92.Tp4apLxsE7jLPpPBkiRxDRvIK2Y; Path=/www/wwwroot/101.37.13.45/thinkphp/library/think/cache/driver; order=id%20desc; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; customer_name=hello; sites_path=/www/wwwroot; backup_path=/www/backup; vcodesum=18; customer_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDcwNDA3MiwibmJmIjoxNjEwNzA0MDcyLCJleHAiOjE2MTA3MDUyNzJ9.Xp4-gyrVC9AR85TEtcPo-gx7I6OjA4d5wRHxLZwwcfI; layers=4; force=0; load_page=null; load_search=undefined; load_type=0; softType=0; pnull=1; distribution=ubuntu; BatchSelected=null; BatchPaste=2; copyFileName=null; cutFileName=null; request_token=dpcwzaJhFc8TJlVzpYEoMim69GqDy5Z4Jg4FK3FKt7kCWBwi; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; rank=a',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/customer/order/index',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\customer\controller\Main->index[ /www/wwwroot/101.37.13.45/application/customer/controller/Main.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000337s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.000668s ]
+[ sql ] [ SQL ] SELECT `customer_id`,`customer_name`,`token` FROM `customer` WHERE  `customer_name` = 'hello' LIMIT 1 [ RunTime:0.000226s ]
+[ error ] [1]Class 'app\customer\controller\Redis' not found[/www/wwwroot/101.37.13.45/application/customer/controller/Main.php:24]
+---------------------------------------------------------------
+[ 2021-01-16T01:20:07+08:00 ] 115.27.209.67 GET 101.37.13.45/customer/main/index
+[运行时间：0.047660s] [吞吐率：20.98req/s] [内存消耗：3,347.03kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'main',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'cookie' => 'SESSIONID=9eace996-5913-487e-935f-dc1b85fd2b92.Tp4apLxsE7jLPpPBkiRxDRvIK2Y; Path=/www/wwwroot/101.37.13.45/application; customer_name=hello; order=id%20desc; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; sites_path=/www/wwwroot; backup_path=/www/backup; vcodesum=18; customer_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDcwNDA3MiwibmJmIjoxNjEwNzA0MDcyLCJleHAiOjE2MTA3MDUyNzJ9.Xp4-gyrVC9AR85TEtcPo-gx7I6OjA4d5wRHxLZwwcfI; layers=4; force=0; load_page=null; load_search=undefined; load_type=0; softType=0; pnull=1; distribution=ubuntu; BatchSelected=null; BatchPaste=2; copyFileName=null; cutFileName=null; request_token=dpcwzaJhFc8TJlVzpYEoMim69GqDy5Z4Jg4FK3FKt7kCWBwi; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; rank=a',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/customer/order/index',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\customer\controller\Main->index[ /www/wwwroot/101.37.13.45/application/customer/controller/Main.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000329s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.000700s ]
+[ sql ] [ SQL ] SELECT `customer_id`,`customer_name`,`token` FROM `customer` WHERE  `customer_name` = 'hello' LIMIT 1 [ RunTime:0.000258s ]
+[ error ] [1]Class 'app\customer\controller\Redis' not found[/www/wwwroot/101.37.13.45/application/customer/controller/Main.php:24]
+---------------------------------------------------------------
+[ 2021-01-16T01:21:10+08:00 ] 115.27.209.67 GET 101.37.13.45/customer/main/index
+[运行时间：0.036088s] [吞吐率：27.71req/s] [内存消耗：3,347.02kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'main',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'cookie' => 'customer_name=hello; SESSIONID=9eace996-5913-487e-935f-dc1b85fd2b92.Tp4apLxsE7jLPpPBkiRxDRvIK2Y; Path=/www/wwwroot/101.37.13.45/application; order=id%20desc; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; sites_path=/www/wwwroot; backup_path=/www/backup; vcodesum=18; customer_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDcwNDA3MiwibmJmIjoxNjEwNzA0MDcyLCJleHAiOjE2MTA3MDUyNzJ9.Xp4-gyrVC9AR85TEtcPo-gx7I6OjA4d5wRHxLZwwcfI; layers=4; force=0; load_page=null; load_search=undefined; load_type=0; softType=0; pnull=1; distribution=ubuntu; BatchSelected=null; BatchPaste=2; copyFileName=null; cutFileName=null; request_token=dpcwzaJhFc8TJlVzpYEoMim69GqDy5Z4Jg4FK3FKt7kCWBwi; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; rank=a',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/customer/order/index',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\customer\controller\Main->index[ /www/wwwroot/101.37.13.45/application/customer/controller/Main.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000392s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.000785s ]
+[ sql ] [ SQL ] SELECT `customer_id`,`customer_name`,`token` FROM `customer` WHERE  `customer_name` = 'hello' LIMIT 1 [ RunTime:0.000240s ]
+[ error ] [1]Class 'app\customer\controller\Redis' not found[/www/wwwroot/101.37.13.45/application/customer/controller/Main.php:24]
+---------------------------------------------------------------
+[ 2021-01-16T01:22:24+08:00 ] 115.27.209.67 GET 101.37.13.45/customer/main/index
+[运行时间：0.032551s] [吞吐率：30.72req/s] [内存消耗：3,347.27kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'main',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'cookie' => 'customer_name=hello; SESSIONID=9eace996-5913-487e-935f-dc1b85fd2b92.Tp4apLxsE7jLPpPBkiRxDRvIK2Y; Path=/www/wwwroot/101.37.13.45/application; order=id%20desc; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; sites_path=/www/wwwroot; backup_path=/www/backup; vcodesum=18; customer_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDcwNDA3MiwibmJmIjoxNjEwNzA0MDcyLCJleHAiOjE2MTA3MDUyNzJ9.Xp4-gyrVC9AR85TEtcPo-gx7I6OjA4d5wRHxLZwwcfI; layers=4; force=0; load_page=null; load_search=undefined; load_type=0; softType=0; pnull=1; distribution=ubuntu; BatchSelected=null; BatchPaste=2; copyFileName=null; cutFileName=null; request_token=dpcwzaJhFc8TJlVzpYEoMim69GqDy5Z4Jg4FK3FKt7kCWBwi; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; rank=a',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/customer/order/index',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\customer\controller\Main->index[ /www/wwwroot/101.37.13.45/application/customer/controller/Main.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000464s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.000749s ]
+[ sql ] [ SQL ] SELECT `customer_id`,`customer_name`,`token` FROM `customer` WHERE  `customer_name` = 'hello' LIMIT 1 [ RunTime:0.000228s ]
+[ error ] [1]Class 'think\facade\Cache' not found[/www/wwwroot/101.37.13.45/application/customer/controller/Main.php:24]
+---------------------------------------------------------------
+[ 2021-01-16T01:22:34+08:00 ] 115.27.209.67 GET 101.37.13.45/customer/main/index
+[运行时间：0.127458s] [吞吐率：7.85req/s] [内存消耗：3,419.97kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'main',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'cookie' => 'customer_name=hello; SESSIONID=9eace996-5913-487e-935f-dc1b85fd2b92.Tp4apLxsE7jLPpPBkiRxDRvIK2Y; Path=/www/wwwroot/101.37.13.45/application; order=id%20desc; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; sites_path=/www/wwwroot; backup_path=/www/backup; vcodesum=18; customer_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDcwNDA3MiwibmJmIjoxNjEwNzA0MDcyLCJleHAiOjE2MTA3MDUyNzJ9.Xp4-gyrVC9AR85TEtcPo-gx7I6OjA4d5wRHxLZwwcfI; layers=4; force=0; load_page=null; load_search=undefined; load_type=0; softType=0; pnull=1; distribution=ubuntu; BatchSelected=null; BatchPaste=2; copyFileName=null; cutFileName=null; request_token=dpcwzaJhFc8TJlVzpYEoMim69GqDy5Z4Jg4FK3FKt7kCWBwi; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; rank=a',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/customer/order/index',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\customer\controller\Main->index[ /www/wwwroot/101.37.13.45/application/customer/controller/Main.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000337s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.000723s ]
+[ sql ] [ SQL ] SELECT `customer_id`,`customer_name`,`token` FROM `customer` WHERE  `customer_name` = 'hello' LIMIT 1 [ RunTime:0.000246s ]
+[ error ] [0]不支持: redis[/www/wwwroot/101.37.13.45/thinkphp/library/think/cache/driver/Redis.php:44]
+---------------------------------------------------------------
+[ 2021-01-16T01:28:30+08:00 ] 115.27.209.67 GET 101.37.13.45/customer/main/index
+[运行时间：0.037107s] [吞吐率：26.95req/s] [内存消耗：3,419.77kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'main',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'cookie' => 'SESSIONID=9eace996-5913-487e-935f-dc1b85fd2b92.Tp4apLxsE7jLPpPBkiRxDRvIK2Y; Path=/www/wwwroot/101.37.13.45/application; customer_name=hello; order=id%20desc; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; sites_path=/www/wwwroot; backup_path=/www/backup; vcodesum=18; customer_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDcwNDA3MiwibmJmIjoxNjEwNzA0MDcyLCJleHAiOjE2MTA3MDUyNzJ9.Xp4-gyrVC9AR85TEtcPo-gx7I6OjA4d5wRHxLZwwcfI; layers=4; force=0; load_page=null; load_search=undefined; load_type=0; softType=0; pnull=1; distribution=ubuntu; BatchSelected=null; BatchPaste=2; copyFileName=null; cutFileName=null; request_token=dpcwzaJhFc8TJlVzpYEoMim69GqDy5Z4Jg4FK3FKt7kCWBwi; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; rank=a',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/customer/order/index',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\customer\controller\Main->index[ /www/wwwroot/101.37.13.45/application/customer/controller/Main.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000555s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.000829s ]
+[ sql ] [ SQL ] SELECT `customer_id`,`customer_name`,`token` FROM `customer` WHERE  `customer_name` = 'hello' LIMIT 1 [ RunTime:0.000308s ]
+[ error ] [0]不支持: redis[/www/wwwroot/101.37.13.45/thinkphp/library/think/cache/driver/Redis.php:44]
+---------------------------------------------------------------
+[ 2021-01-16T01:28:32+08:00 ] 115.27.209.67 GET 101.37.13.45/customer/main/index
+[运行时间：0.034635s] [吞吐率：28.87req/s] [内存消耗：3,420.09kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'main',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'cookie' => 'customer_name=hello; SESSIONID=9eace996-5913-487e-935f-dc1b85fd2b92.Tp4apLxsE7jLPpPBkiRxDRvIK2Y; Path=/www/wwwroot/101.37.13.45/application; order=id%20desc; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; sites_path=/www/wwwroot; backup_path=/www/backup; vcodesum=18; customer_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDcwNDA3MiwibmJmIjoxNjEwNzA0MDcyLCJleHAiOjE2MTA3MDUyNzJ9.Xp4-gyrVC9AR85TEtcPo-gx7I6OjA4d5wRHxLZwwcfI; layers=4; force=0; load_page=null; load_search=undefined; load_type=0; softType=0; pnull=1; distribution=ubuntu; BatchSelected=null; BatchPaste=2; copyFileName=null; cutFileName=null; request_token=dpcwzaJhFc8TJlVzpYEoMim69GqDy5Z4Jg4FK3FKt7kCWBwi; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; rank=a',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/customer/order/index',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\customer\controller\Main->index[ /www/wwwroot/101.37.13.45/application/customer/controller/Main.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000379s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.002231s ]
+[ sql ] [ SQL ] SELECT `customer_id`,`customer_name`,`token` FROM `customer` WHERE  `customer_name` = 'hello' LIMIT 1 [ RunTime:0.000247s ]
+[ error ] [0]不支持: redis[/www/wwwroot/101.37.13.45/thinkphp/library/think/cache/driver/Redis.php:44]
+---------------------------------------------------------------
+[ 2021-01-16T01:31:31+08:00 ] 115.27.209.67 GET 101.37.13.45/
+[运行时间：0.031069s] [吞吐率：32.19req/s] [内存消耗：1,763.79kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'SESSIONID=9eace996-5913-487e-935f-dc1b85fd2b92.Tp4apLxsE7jLPpPBkiRxDRvIK2Y; ltd_end=-1; order=id%20desc; pro_end=-1; serverType=apache; memSize=1839; customer_name=hello; Path=/www/wwwroot/101.37.13.45/application; uploadSize=1073741824; sites_path=/www/wwwroot; backup_path=/www/backup; vcodesum=18; customer_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDcwNDA3MiwibmJmIjoxNjEwNzA0MDcyLCJleHAiOjE2MTA3MDUyNzJ9.Xp4-gyrVC9AR85TEtcPo-gx7I6OjA4d5wRHxLZwwcfI; layers=4; force=0; load_page=null; load_search=undefined; load_type=0; softType=0; pnull=1; distribution=ubuntu; BatchSelected=null; BatchPaste=2; copyFileName=null; cutFileName=null; request_token=dpcwzaJhFc8TJlVzpYEoMim69GqDy5Z4Jg4FK3FKt7kCWBwi; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; rank=a',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T01:54:40+08:00 ] 82.131.131.21 GET 101.37.13.45/phpmyadmin/
+[运行时间：0.018267s] [吞吐率：54.74req/s] [内存消耗：1,833.45kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpmyadmin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '101.37.13.45',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T05:24:26+08:00 ] 41.219.185.11 GET 101.37.13.45:80/
+[运行时间：0.015141s] [吞吐率：66.05req/s] [内存消耗：1,760.33kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T05:29:35+08:00 ] 176.212.52.134 GET 101.37.13.45:80/
+[运行时间：0.016009s] [吞吐率：62.47req/s] [内存消耗：1,760.33kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T07:26:44+08:00 ] 5.40.162.204 GET 101.37.13.45:80/
+[运行时间：0.015716s] [吞吐率：63.63req/s] [内存消耗：1,760.33kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T08:12:24+08:00 ] 128.14.209.250 GET 101.37.13.45/
+[运行时间：0.015909s] [吞吐率：62.86req/s] [内存消耗：1,760.65kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T09:14:50+08:00 ] 41.84.224.113 GET 101.37.13.45:80/
+[运行时间：0.016353s] [吞吐率：61.15req/s] [内存消耗：1,760.33kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T09:28:57+08:00 ] 179.60.150.48 GET 101.37.13.45/
+[运行时间：0.016918s] [吞吐率：59.11req/s] [内存消耗：1,760.66kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'accept-language' => 'en',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T09:56:08+08:00 ] 167.114.43.107 GET 101.37.13.45/.env
+[运行时间：0.018232s] [吞吐率：54.85req/s] [内存消耗：1,834.06kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '.env',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T09:56:11+08:00 ] 167.114.43.107 POST 101.37.13.45/
+[运行时间：0.015885s] [吞吐率：62.95req/s] [内存消耗：1,760.49kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '20',
+)
+[ info ] [ PARAM ] array (
+  '0x' => 
+  array (
+    0 => 'androxgh0st',
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T10:29:08+08:00 ] 66.240.205.34 GET 101.37.13.45/
+[运行时间：0.018075s] [吞吐率：55.33req/s] [内存消耗：1,760.58kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'accept-encoding' => 'identity',
+  'host' => '101.37.13.45',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T11:02:25+08:00 ] 89.248.170.31 GET 101.37.13.45:80/config/getuser?index=0
+[运行时间：0.018759s] [吞吐率：53.31req/s] [内存消耗：1,835.23kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'config',
+    1 => 'getuser',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'index' => '0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T11:43:52+08:00 ] 198.143.155.122 GET 101.37.13.45/
+[运行时间：0.016016s] [吞吐率：62.44req/s] [内存消耗：1,760.65kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T14:15:12+08:00 ] 200.141.135.218 GET 101.37.13.45:80/
+[运行时间：0.015938s] [吞吐率：62.74req/s] [内存消耗：1,760.33kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T15:46:34+08:00 ] 124.70.136.221 GET 101.37.13.45/phpmyadmin
+[运行时间：0.018793s] [吞吐率：53.21req/s] [内存消耗：1,834.50kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpmyadmin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://101.37.13.45/phpmyadmin',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => '101.37.13.45',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T16:30:19+08:00 ] 111.7.96.168 HEAD 101.37.13.45:80/
+[运行时间：0.015237s] [吞吐率：65.63req/s] [内存消耗：1,759.52kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Go-http-client/1.1',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T16:30:19+08:00 ] 111.7.96.168 GET 101.37.13.45/
+[运行时间：0.015095s] [吞吐率：66.25req/s] [内存消耗：1,761.63kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T16:45:26+08:00 ] 47.101.164.2 GET 101.37.13.45/
+[运行时间：0.015548s] [吞吐率：64.32req/s] [内存消耗：1,760.18kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux/Android/android/iphone;)',
+  'host' => '101.37.13.45',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T17:18:49+08:00 ] 114.67.86.52 GET 101.37.13.45/
+[运行时间：0.014834s] [吞吐率：67.41req/s] [内存消耗：1,760.19kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '101.37.13.45',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T17:19:16+08:00 ] 209.141.58.184 GET 101.37.13.45/w00tw00t.at.blackhats.romanian.anti-sec:)
+[运行时间：0.019184s] [吞吐率：52.13req/s] [内存消耗：1,833.89kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'w00tw00t.at.blackhats.romanian.anti-sec:)',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'accept' => '*/*',
+  'accept-language' => 'en-us',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'ZmEu',
+  'host' => '101.37.13.45',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T19:05:38+08:00 ] 89.248.170.31 GET 101.37.13.45:80/
+[运行时间：0.022599s] [吞吐率：44.25req/s] [内存消耗：1,761.23kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Linux Gnu (cow)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T19:44:11+08:00 ] 13.78.166.23 GET 101.37.13.45/.env
+[运行时间：0.017694s] [吞吐率：56.52req/s] [内存消耗：1,834.05kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '.env',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T19:44:12+08:00 ] 13.78.166.23 POST 101.37.13.45/
+[运行时间：0.018464s] [吞吐率：54.16req/s] [内存消耗：1,760.49kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '20',
+)
+[ info ] [ PARAM ] array (
+  '0x' => 
+  array (
+    0 => 'androxgh0st',
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T20:48:58+08:00 ] 66.240.236.119 GET 101.37.13.45/
+[运行时间：0.015345s] [吞吐率：65.17req/s] [内存消耗：1,760.58kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'accept-encoding' => 'identity',
+  'host' => '101.37.13.45',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T20:49:04+08:00 ] 66.240.236.119 GET 101.37.13.45/sitemap.xml
+[运行时间：0.016007s] [吞吐率：62.47req/s] [内存消耗：1,832.91kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sitemap.xml',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'accept-encoding' => 'identity',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T20:49:06+08:00 ] 66.240.236.119 GET 101.37.13.45/.well-known/security.txt
+[运行时间：0.016065s] [吞吐率：62.25req/s] [内存消耗：1,832.84kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '.well-known',
+    1 => 'security.txt',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'accept-encoding' => 'identity',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T21:27:37+08:00 ] 101.251.242.238 GET 101.37.13.45:80/
+[运行时间：0.015911s] [吞吐率：62.85req/s] [内存消耗：1,760.63kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-charset' => 'GBK,utf-8;q=0.7,*;q=0.3',
+  'accept' => 'application/json, text/plain, */*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T21:30:37+08:00 ] 199.230.105.18 GET 101.37.13.45:80/
+[运行时间：0.015965s] [吞吐率：62.64req/s] [内存消耗：1,761.23kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Linux Gnu (cow)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T21:46:09+08:00 ] 47.101.51.140 GET 101.37.13.45/
+[运行时间：0.015430s] [吞吐率：64.81req/s] [内存消耗：1,760.34kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'host' => '101.37.13.45',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T23:05:14+08:00 ] 5.202.40.158 GET 101.37.13.45:80/
+[运行时间：0.016411s] [吞吐率：60.94req/s] [内存消耗：1,760.33kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T23:29:12+08:00 ] 209.141.60.195 GET 101.37.13.45:80/config/getuser?index=0
+[运行时间：0.019635s] [吞吐率：50.93req/s] [内存消耗：1,835.23kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'config',
+    1 => 'getuser',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'index' => '0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T23:34:59+08:00 ] 196.52.43.126 GET 101.37.13.45:80/
+[运行时间：0.014505s] [吞吐率：68.94req/s] [内存消耗：1,759.99kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3602.2 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-16T23:39:27+08:00 ] 192.241.224.73 GET 101.37.13.45/
+[运行时间：0.015816s] [吞吐率：63.23req/s] [内存消耗：1,760.30kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/5.0 zgrab/0.x',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File

