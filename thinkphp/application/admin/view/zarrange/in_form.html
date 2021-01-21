@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>后台登录-X-admin1.1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/temp/X-admin/css/font.css">
+	<link rel="stylesheet" href="/temp/X-admin/css/xadmin.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/Swiper/3.4.2/css/swiper.min.css">
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bootcss.com/Swiper/3.4.2/js/swiper.jquery.min.js"></script>
+    <script src="/temp/X-admin/lib/layui/layui.js" charset="utf-8"></script>
+    <!--<script src="/temp/X-admin/lib/layui/lay/modules/form.js" charset="utf-8"></script>
+    <script src="/temp/X-admin/lib/layui/lay/all.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="/temp/X-admin/lib/layui/css/layui.css">-->
+    <script type="text/javascript" src="/temp/X-admin/js/xadmin.js"></script>
+
+</head>
+<body>
+    <!-- 中部开始 -->
+    <div class="wrapper">
+        <!-- 右侧主体开始 -->
+        <div class="page-content">
+          <div class="content">
+            <!-- 右侧内容框架，更改从这里开始 -->
+            <form class="layui-form"  action="javascript:edit();">
+                <div class="layui-form-item" style="display:none">
+                    <label for="L_id" class="layui-form-label">
+                        <span class="x-red">*</span>ID
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" id="L_id" name="id" required="" disabled="" lay-verify="id"
+                        autocomplete="off" class="layui-input" value="{$info['id']}">
+                    </div>
+                    <div class="layui-form-mid layui-word-aux">
+                        <span class="x-red">*</span>不可修改
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label for="L_name" class="layui-form-label">
+                        <span class="x-red">*</span>姓名
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" id="L_name" name="name" required="" disabled="" lay-verify="name"
+                        autocomplete="off" class="layui-input" value="{$info['name']}">
+                    </div>
+                    <div class="layui-form-mid layui-word-aux">
+                        <span class="x-red">*</span>不可修改
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label for="L_gender" class="layui-form-label">
+                        <span class="x-red">*</span>性别
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" id="L_gender" name="gender" required="" disabled="" lay-verify="gender"
+                        autocomplete="off" class="layui-input" value="{$info['gender']}">
+                    </div>
+                    <div class="layui-form-mid layui-word-aux">
+                        <span class="x-red">*</span>不可修改
+                    </div>
+                </div>
+                <div class="layui-form-item" id="d">
+                    <label for="L_dorm" class="layui-form-label">
+                        <span class="x-red">*</span>宿舍
+                    </label>
+
+                    <div class="layui-input-inline">
+                        {volist name="dorm" id='vo'}
+                        <input type="radio" name="dorm" value="{$vo.id}" title="{$vo.name}{$vo.room_id}">
+                        {/volist}
+                    </div>
+                </div>
+                <!--<div class="layui-form-item">
+                    <label for="L_room" class="layui-form-label">
+                        <span class="x-red">*</span>宿舍
+                    </label>
+                    <div class="layui-input-inline">
+                        <div class="layui-form" lay-filter="myDiv">
+                            <select name="mySelect" id="mySelect" lay-filter="mySelect">
+                                <option value="">请选择</option>
+                            </select>     
+                        </div>
+                    </div>
+                </div>-->
+
+                <div class="layui-form-item">
+                    <label for="L_edit" class="layui-form-label">
+                    </label>
+                    
+                    <button  class="layui-btn" lay-filter="edit" lay-submit="javascript:;" >
+                        确定
+                        
+                    </button>
+                </div>
+            </form>
+            <!-- 右侧内容框架，更改从这里结束 -->
+          </div>
+        </div>
+        <!-- 右侧主体结束 -->
+    </div>
+    <!-- 中部结束 -->
+
+    <script type="text/javascript">
+        /*
+        layui.use('form', function(){
+            getDorm();
+        });
+         
+        function getDorm(){
+            var gender = $('#L_gender').val();
+            var url = 'index.php/admin/arrange/get_dorm/gender/'+gender+'.html';
+            //alert(url);
+            $.get(url, function(data,status){
+            //$.ajax({
+                //url:'index.php/admin/arrange/availabledorm',
+                //success:function(data,status){
+                    if(status=="success"){
+                        for(var i =0;i<data.length;i++){
+                            //$("#mySelect").append("<option value=\""+data[i]['name']+data[i]['room_id']+"\">"+"</option>");
+                            $("#mySelect").append("<option value=\""+i+"\">"+"</option>");
+                        }
+                        //重新渲染
+                        layui.form.render();
+                    }
+                    else{
+                        //layer.msg(res.message);
+                        layer.msg('error', {icon: 1});
+                    }
+                //}
+            });
+        }*/
+
+        function edit(){
+            var user_id = $('#L_id').val();
+            var dorm_id = $('#d input[name="dorm"]:checked ').val();
+
+            var str = "/user_id/"+user_id+"/dorm_id/"+dorm_id;
+            var url="/index.php/admin/arrange/in_submit"+str+".html";
+            
+            $.get(url, function(data,status){
+                if(status=="success"){
+                        parent.layer.closeAll();
+                        parent.layer.msg('分配成功',{icon:1,time:1000});
+                        window.parent.location.href=window.parent.location.href;
+                    
+                }
+            });
+
+
+        }
+    </script>
+
+
+    {include file="public/baidu" /}
+</body>
+</html>

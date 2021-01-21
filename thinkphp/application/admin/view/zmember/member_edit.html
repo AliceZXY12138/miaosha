@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>后台登录-X-admin1.1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/temp/X-admin/css/font.css">
+	<link rel="stylesheet" href="/temp/X-admin/css/xadmin.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/Swiper/3.4.2/css/swiper.min.css">
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bootcss.com/Swiper/3.4.2/js/swiper.jquery.min.js"></script>
+    <script src="/temp/X-admin/lib/layui/layui.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/temp/X-admin/js/xadmin.js"></script>
+
+</head>
+<body>
+    <!-- 中部开始 -->
+    <div class="wrapper">
+        <!-- 右侧主体开始 -->
+        <div class="page-content">
+          <div class="content">
+            <!-- 右侧内容框架，更改从这里开始 -->
+            <form class="layui-form"  action="javascript:edit();">
+                
+                <div class="layui-form-item">
+                    <label for="L_id" class="layui-form-label">
+                        <span class="x-red">*</span>ID
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" id="L_id" name="id" required="" disabled="" lay-verify="id"
+                        autocomplete="off" class="layui-input" value="{$info['id']}">
+                    </div>
+                    <div class="layui-form-mid layui-word-aux">
+                        <span class="x-red">*</span>不可修改
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label for="L_username" class="layui-form-label">
+                        <span class="x-red">*</span>用户名
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" id="L_username" name="username" required="" disabled="" lay-verify="username"
+                        autocomplete="off" class="layui-input" value="{$info['username']}">
+                    </div>
+                    <div class="layui-form-mid layui-word-aux">
+                        <span class="x-red">*</span>不可修改
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label for="L_name" class="layui-form-label">
+                        <span class="x-red">*</span>姓名
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" id="L_name" name="name" required="" lay-verify="name"
+                        autocomplete="off" class="layui-input" value="{$info['name']}">
+                    </div>
+                </div>
+                <div class="layui-form-item" id="g">
+                    <label for="L_gender" class="layui-form-label">
+                        <span class="x-red">*</span>性别
+                    </label>
+
+                    <div class="layui-input-inline">
+                            <input type="radio" name="gender" value="男" {$mchecked} title="男">
+                            <input type="radio" name="gender" value="女" {$fchecked} title="女">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label for="L_phone" class="layui-form-label">
+                        <span class="x-red">*</span>电话
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" id="L_phone" name="phone" required="" lay-verify="phone"
+                        autocomplete="off" class="layui-input"  value="{$info['phone']}">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label for="L_email" class="layui-form-label">
+                        <span class="x-red">*</span>邮箱
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" id="L_email" name="email" required="" lay-verify="email"
+                        autocomplete="off" class="layui-input"  value="{$info['email']}">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label for="L_edit" class="layui-form-label">
+                    </label>
+                    
+                    <button  class="layui-btn" lay-filter="edit" lay-submit="javascript:;" >
+                        修改
+                        
+                    </button>
+                </div>
+            </form>
+            <!-- 右侧内容框架，更改从这里结束 -->
+          </div>
+        </div>
+        <!-- 右侧主体结束 -->
+    </div>
+    <!-- 中部结束 -->
+
+    <script type="text/javascript">
+        function edit(){
+            var id = $('#L_id').val();
+            var username = $('#L_username').val();
+            var password = $('#L_password').val();
+            var name = $('#L_name').val();
+            var gender = $('#g input[name="gender"]:checked ').val();
+            var phone = $('#L_phone').val();
+            var email = $('#L_email').val();
+
+            var str = "id/"+id+"/username/"+username+"/name/"+name+"/gender/"+gender+"/phone/"+phone+"/email/"+email;
+            var url="/index.php/admin/member/submit_edit/"+str+".html"
+            
+            
+            $.get(url, function(data,status){
+                if(status=="success"){
+                    parent.layer.closeAll();
+                    parent.layer.msg('修改成功',{icon:1,time:3000});
+                    window.parent.location.href=window.parent.location.href;
+                }
+            });
+
+        }
+    </script>
+
+
+    {include file="public/baidu" /}
+</body>
+</html>

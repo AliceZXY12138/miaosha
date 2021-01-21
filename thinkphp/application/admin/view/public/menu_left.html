@@ -1,0 +1,15 @@
+<div class="left-nav">
+    <div id="side-nav">
+      <ul id="nav">
+        {volist name="menu" id="vo"}
+          <li class='{$vo.class}'>
+              <a href='{:url("$vo[action]")}'>
+                  <i class="iconfont">&#xe761;</i>
+                  {$vo.node_name}
+                  <i class="iconfont nav_right">&#xe697;</i>
+              </a>
+          </li>
+          {/volist}
+      </ul>
+    </div>
+  </div>

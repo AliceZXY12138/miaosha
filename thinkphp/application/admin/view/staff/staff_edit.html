@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>秒杀小店-管理员管理-编辑</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/temp/X-admin/css/font.css">
+	<link rel="stylesheet" href="/temp/X-admin/css/xadmin.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/Swiper/3.4.2/css/swiper.min.css">
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bootcss.com/Swiper/3.4.2/js/swiper.jquery.min.js"></script>
+    <script src="/temp/X-admin/lib/layui/layui.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/temp/X-admin/js/xadmin.js"></script>
+
+</head>
+<body>
+    <!-- 中部开始 -->
+    <div class="wrapper">
+        <!-- 右侧主体开始 -->
+        <div class="page-content">
+          <div class="content">
+            <!-- 右侧内容框架，更改从这里开始 -->
+            <form class="layui-form"  action="javascript:edit();">
+                <div class="layui-form-item">
+                    <label for="L_user_id" class="layui-form-label">
+                        <span class="x-red">*</span>用户编号
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" id="L_user_id" name="user_id" required="" disabled="" lay-verify="id"
+                        autocomplete="off" class="layui-input" value="{$info['user_id']}">
+                    </div>
+                    <div class="layui-form-mid layui-word-aux">
+                        <span class="x-red">*</span>不可修改
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label for="L_username" class="layui-form-label">
+                        <span class="x-red">*</span>用户名
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" id="L_username" name="username" required="" disabled="" lay-verify="username"
+                        autocomplete="off" class="layui-input" value="{$info['username']}">
+                    </div>
+                    <div class="layui-form-mid layui-word-aux">
+                        <span class="x-red">*</span>不可修改
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label for="L_role_name" class="layui-form-label">
+                        <span class="x-red">*</span>原身份
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" id="L_role_name" name="role_name" required="" disabled=""  lay-verify="role_name"
+                        autocomplete="off" class="layui-input" value="{$info['role_name']}">
+                    </div>
+                    
+                </div>
+                <div class="layui-form-item" id="rrole">
+                    <label for="L_status" class="layui-form-label">
+                        <span class="x-red">*</span>新身份
+                    </label>
+                    <div class="layui-input-inline">
+                        {volist name="roles" id="vo" key="k"}
+                            <input type="radio" name="role_id" value="{$vo['role_id']}" title="{$vo['role_name']}">
+                        {/volist}
+                    </div>
+                </div>
+                
+            
+                <div class="layui-form-item">
+                    <label for="L_edit" class="layui-form-label">
+                    </label>
+                    
+                    <button  class="layui-btn" lay-filter="edit" lay-submit="javascript:;" >
+                        修改
+                        
+                    </button>
+                </div>
+            </form>
+            <!-- 右侧内容框架，更改从这里结束 -->
+          </div>
+        </div>
+        <!-- 右侧主体结束 -->
+    </div>
+    <!-- 中部结束 -->
+
+    <script type="text/javascript">
+        function edit(){  
+            
+            var user_id = $('#L_user_id').val();
+            var role_id = $('#rrole input[name="role_id"]:checked ').val();
+            
+            if(typeof(role_id)=="undefined"){
+                layer.msg('新身份不得为空',{icon:1,time:1000});
+            }
+            else{
+
+                var str = "user_id/"+user_id+"/role_id/"+role_id;
+                var url="/index.php/admin/staff/submit_edit/"+str+".html"
+                
+                $.get(url, function(data,status){
+                    
+                    if(status=="success"){
+                        parent.layer.closeAll();
+                        parent.layer.msg('修改成功',{icon:1,time:1000});
+                        window.parent.location.href=window.parent.location.href;
+                    }
+                });
+            }
+        }
+    </script>
+
+
+    {include file="public/baidu" /}
+</body>
+</html>

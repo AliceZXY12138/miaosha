@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>后台登录-X-admin1.1</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/temp/X-admin/css/font.css">
+	<link rel="stylesheet" href="/temp/X-admin/css/xadmin.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/Swiper/3.4.2/css/swiper.min.css">
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bootcss.com/Swiper/3.4.2/js/swiper.jquery.min.js"></script>
+    <script src="/temp/X-admin/lib/layui/layui.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/temp/X-admin/js/xadmin.js"></script>
+
+</head>
+<body>
+    <!-- 顶部开始 -->
+    <div class="container">
+        {include file="public/menu_top" /}
+    </div>
+    <!-- 顶部结束 -->
+    <!-- 中部开始 -->
+    <div class="wrapper">
+        <!-- 左侧菜单开始 -->
+       {include file="public/menu_left" /}
+        <!-- 左侧菜单结束 -->
+        <!-- 右侧主体开始 -->
+        <div class="page-content">
+          <div class="content">
+            <!-- 右侧内容框架，更改从这里开始 -->
+            
+            <blockquote class="layui-elem-quote">
+                高级管理员
+            </blockquote>
+            <blockquote class="layui-elem-quote">
+                管理高级管理员的信息
+            </blockquote>
+            
+            <xblock>
+                <button class="layui-btn layui-btn-danger" onclick="delAll()"><i class="layui-icon">&#xe640;</i>批量删除</button>
+                <button class="layui-btn" onclick="member_add('添加用户','member_add.html','600','600')"><i class="layui-icon">&#xe608;</i>添加</button>
+                <span class="x-right" style="line-height:40px">共有数据：{$user_admin_size} 条</span>
+            </xblock>
+            
+            <fieldset class="layui-elem-field layui-field-title site-title">
+              <legend><a name="default">高级管理员</a></legend>
+            </fieldset>
+            <table class="layui-table">
+                <thead>
+                    <tr>
+                        <th>
+                            <input type="checkbox" name="" value="" onclick="swapCheck()">
+                        </th>
+                        <th>ID</th>
+                        <th>用户名</th>
+                        <th>姓名</th>
+                        <th>性别</th>
+                        <th>电话</th>
+                        <th>邮箱</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {volist name="user_admin" id='vo'}
+                    <tr>
+                        <td>
+                            <input type="checkbox" value="1" name="">
+                        </td>
+                        <td>{$vo.id}</td>
+                        <td>{$vo.username}</td>
+                        <td>{$vo.name}</td>
+                        <td>{$vo.gender}</td>
+                        <td>{$vo.phone}</td>
+                        <td>{$vo.email}</td>
+                        <td class="td-manage">
+                            
+                            <a title="编辑"  href="javascript:;" onclick="member_edit('编辑用户{$vo.username}','{:url("member_edit","id=$vo[id]")}',this,'600','500')"
+                            class="ml-5" style="text-decoration:none">
+                                <i class="layui-icon">&#xe642;</i>
+                            </a>
+                            <!--<a title="删除" href="javascript:;" onclick="admin_del(this,'1')" 
+                            style="text-decoration:none">-->
+                            <a title="删除" href="javascript:;" onclick="javascript:member_del(this,'{:url("member_del","id=$vo[id]")}')"
+                            style="text-decoration:none">
+                                <i class="layui-icon">&#xe640;</i>
+                            </a>
+                        </td>
+                    </tr>
+                    {/volist}
+                </tbody>
+                
+            </table>
+            <!-- 右侧内容框架，更改从这里结束 -->
+          </div>
+        </div>
+        <!-- 右侧主体结束 -->
+    </div>
+    <!-- 中部结束 -->
+    <!-- 底部开始 -->
+    {include file="public/menu_bottom" /}
+    <!-- 底部结束 -->
+    <!-- 背景切换开始 -->
+	{include file="public/background_change" /}
+    <!-- 背景切换结束 -->
+    {include file="public/baidu" /}
+    
+    <script type="text/javascript">
+		//checkbox 全选/取消全选
+		var isCheckAll = false;
+		function swapCheck() {
+			if (isCheckAll) {
+				$("input[type='checkbox']").each(function() {
+					this.checked = false;
+				});
+				isCheckAll = false;
+			} else {
+				$("input[type='checkbox']").each(function() {
+					this.checked = true;
+				});
+				isCheckAll = true;
+			}
+		}
+		// 用户-编辑
+        function member_edit (title,url,obj,w,h) {
+            //var oid = $(obj).parent("td").siblings("td").eq(1).text();
+            x_admin_show(title,url,w,h);
+        }
+        /*用户-删除*/
+        function member_del(obj,url){
+            //alert(url);
+            layer.confirm('确认要删除吗？',function(index){
+                //发异步删除数据
+                $.get(url, function(data,status){
+                    if(status=="success"){
+                        if(data=="no"){
+                            layer.msg('不允许删除自己',{icon:1,time:1000});
+                            //alert(data);
+                        }
+                        else{
+                            layer.msg('已删除!',{icon:1,time:1000});
+                            window.location.href=window.location.href;
+                        }
+                    }
+                });/*
+                var id = $(obj).parent("td").siblings("td").eq(1).text();
+                //var str = "{id="+id+"}";
+                $.ajax({
+                    type:"post",
+                    url:"member_del",   //数据传输的控制器方法
+                    data:{"id":id},//这里data传递过去的是序列化以后的字符串
+                    success:function(data){
+                        //alert(data);//获取成功以后输出返回值
+                        if(data=="no"){
+                            layer.msg('不允许删除自己',{icon:1,time:1000});
+                        }
+                        else{
+                            alert(data);
+                            layer.msg('已删除!',{icon:1,time:1000});
+                            window.location.href=window.location.href;
+                        }
+                    }
+                 });*/
+                //$(obj).parents("tr").remove();
+            });
+        }
+        /*用户-添加*/
+        function member_add(title,url,w,h){
+            x_admin_show(title,url,w,h);
+        }
+        
+		//批量删除提交
+        function delAll () {
+            layer.confirm('确认要删除吗？',function(index){
+                //捉到所有被选中的，发异步进行删除
+                layer.msg('删除成功', {icon: 1});
+            });
+         }
+	</script>
+ 
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>后台登录-X-admin1.1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/temp/X-admin/css/font.css">
+	<link rel="stylesheet" href="/temp/X-admin/css/xadmin.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/Swiper/3.4.2/css/swiper.min.css">
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bootcss.com/Swiper/3.4.2/js/swiper.jquery.min.js"></script>
+    <script src="/temp/X-admin/lib/layui/layui.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/temp/X-admin/js/xadmin.js"></script>
+
+</head>
+<body>
+    <!-- 中部开始 -->
+    <div class="wrapper">
+        <!-- 右侧主体开始 -->
+        <div class="page-content">
+          <div class="content">
+            <!-- 右侧内容框架，更改从这里开始 -->
+            <form class="layui-form"  action="javascript:add();">
+                <div class="layui-form-item">
+                    <label for="L_name" class="layui-form-label">
+                        <span class="x-red">*</span>楼名
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" id="L_name" name="name" required=""  lay-verify="name"
+                        autocomplete="off" class="layui-input" value="">
+                    </div>
+
+                </div>
+                <div class="layui-form-item">
+                    <label for="L_roomid" class="layui-form-label">
+                        <span class="x-red">*</span>宿舍号
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" id="L_roomid" name="roomid" required="" lay-verify="roomid"
+                        autocomplete="off" class="layui-input" value="">
+                    </div>
+                </div>
+                
+                <div class="layui-form-item" id="g">
+                    <label for="L_gender" class="layui-form-label">
+                        <span class="x-red">*</span>性别
+                    </label>
+
+                    <div class="layui-input-inline">
+                        <input type="radio" name="gender" value="男"  title="男">
+                        <input type="radio" name="gender" value="女"  title="女">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label for="L_bed" class="layui-form-label">
+                        <span class="x-red">*</span>总床位数
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" id="L_bed" name="bed" required="" lay-verify="bed"
+                        autocomplete="off" class="layui-input"  value="">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label for="L_available" class="layui-form-label">
+                        <span class="x-red">*</span>剩余床位数
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" id="L_available" name="available" required="" lay-verify="available"
+                        autocomplete="off" class="layui-input"  value="">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label for="L_edit" class="layui-form-label">
+                    </label>
+                    
+                    <button  class="layui-btn" lay-filter="edit" lay-submit="javascript:;" >
+                        添加
+                        
+                    </button>
+                </div>
+            </form>
+            <!-- 右侧内容框架，更改从这里结束 -->
+          </div>
+        </div>
+        <!-- 右侧主体结束 -->
+    </div>
+    <!-- 中部结束 -->
+
+    <script type="text/javascript">
+        function add(){
+            //var id = $('#L_id').val();
+            var name = $('#L_name').val();
+            var room_id = $('#L_roomid').val();
+            var gender = $('#g input[name="gender"]:checked ').val();
+            var bed = $('#L_bed').val();
+            var available = $('#L_available').val();
+
+            var str = "/name/"+name+"/room_id/"+room_id+"/gender/"+gender+"/bed/"+bed+"/available/"+available;
+            var url="/index.php/admin/dorm/submit_dorm_add"+str+".html"
+
+            
+            $.get(url, function(data,status){
+                if(status=="success"){
+                    if(data=="building"){
+                        layer.msg('楼名不存在',{icon:1,time:1000});
+                    }
+                    else if(data=="room"){
+                        layer.msg('本楼中该房间号已存在',{icon:1,time:1000});
+                    }
+                    else if(data=="bed"){
+                        layer.msg('剩余床位数超过总床位数',{icon:1,time:1000});
+                    }
+                    else{
+                        parent.layer.closeAll();
+                        parent.layer.msg('添加成功',{icon:1,time:1000});
+                        window.parent.location.href=window.parent.location.href;
+                    }
+                }
+            });
+
+
+        }
+    </script>
+
+
+    {include file="public/baidu" /}
+</body>
+</html>

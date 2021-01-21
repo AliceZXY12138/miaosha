@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>秒杀小店-日志查询</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/temp/X-admin/css/font.css">
+	<link rel="stylesheet" href="/temp/X-admin/css/xadmin.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/Swiper/3.4.2/css/swiper.min.css">
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bootcss.com/Swiper/3.4.2/js/swiper.jquery.min.js"></script>
+    <script src="/temp/X-admin/lib/layui/layui.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/temp/X-admin/js/xadmin.js"></script>
+
+</head>
+<body>
+    <!-- 顶部开始 -->
+    <div class="container">
+        {include file="public/menu_top" /}
+    </div>
+    <!-- 顶部结束 -->
+    <!-- 中部开始 -->
+    <div class="wrapper">
+        <!-- 左侧菜单开始 -->
+       {include file="public/menu_left" /}
+        <!-- 左侧菜单结束 -->
+        <!-- 右侧主体开始 -->
+        <div class="page-content">
+          <div class="content">
+            <!-- 右侧内容框架，更改从这里开始 -->
+            <fieldset class="layui-elem-field layui-field-title site-title">
+              <legend><a name="default">管理员访问记录</a></legend>
+            </fieldset>
+            <table class="layui-table">
+                <thead>
+                    <tr>
+                        <th>编号</th>
+                        <th>用户编号</th>
+                        <th>用户名</th>
+                        <th>模块</th>
+                        <th>控制器</th>
+                        <th>方法</th>
+                        <th>语句</th>
+                        <th>IP</th>
+                        <th>时间</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {volist name="lists" id="vo"}
+                    <tr>
+                        <td>{$vo.id}</td>
+                        <td>{$vo.user_id}</td>
+                        <td>{$vo.username}</td>
+                        <td>{$vo.m}</td>
+                        <td>{$vo.c}</td>
+                        <td>{$vo.a}</td>
+                        <td>{$vo.querystring}</td>
+                        <td>{$vo.ip}</td>
+                        <td>{$vo.time}</td>
+                        
+
+                    </tr>
+                    {/volist}
+                </tbody>
+                
+            </table>
+            <!-- 右侧内容框架，更改从这里结束 -->
+          </div>
+        </div>
+        <!-- 右侧主体结束 -->
+    </div>
+    <!-- 中部结束 -->
+    <!-- 底部开始 -->
+    {include file="public/menu_bottom" /}
+    <!-- 底部结束 -->
+    <!-- 背景切换开始 -->
+	{include file="public/background_change" /}
+    <!-- 背景切换结束 -->
+    {include file="public/baidu" /}
+</body>
+</html>

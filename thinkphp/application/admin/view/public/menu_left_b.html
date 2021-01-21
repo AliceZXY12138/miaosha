@@ -1,0 +1,104 @@
+<div class="left-nav">
+    <div id="side-nav">
+      <ul id="nav">
+          <li class="list" current>
+              <a href="goto_main">
+                  <i class="iconfont">&#xe761;</i>
+                  欢迎页面
+                  <i class="iconfont nav_right">&#xe697;</i>
+              </a>
+          </li>
+          <li class="list" >
+              <a href="javascript:;">
+                  <i class="iconfont">&#xe70b;</i>
+                   用户管理
+                  <i class="iconfont nav_right">&#xe697;</i>
+              </a>
+              <!--<ul class="sub-menu opened">-->
+              <!--<ul class="sub-menu" style="display:none">-->
+              <ul class="sub-menu {$opened['member']}">
+                  <li {$cur.member_admin}>
+                      <a href="goto_member_admin">
+                          <i class="iconfont">&#xe6a7;</i>
+                          高级管理员
+                      </a>
+                  </li>
+                  <li {$cur.member_dormadmin}>
+                      <a href="goto_member_dormadmin">
+                          <i class="iconfont">&#xe6a7;</i>
+                          普通管理员
+                      </a>
+                  </li>
+                  <li {$cur.member_student}>
+                      <a href="goto_member_student">
+                          <i class="iconfont">&#xe6a7;</i>
+                          学生
+                      </a>
+                  </li>
+              </ul>
+          </li>
+          <li class="list" >
+              <a href="javascript:;">
+                  <i class="iconfont">&#xe6a3;</i>
+                  宿舍管理
+                  <i class="iconfont nav_right">&#xe697;</i>
+              </a>
+              <ul class="sub-menu {$opened['dorm']}">
+                  <li {$cur.dorm_building}>
+                      <a href="goto_dorm_building">
+                          <i class="iconfont">&#xe6a7;</i>
+                          宿舍楼管理
+                      </a>
+                  </li>
+                  <li {$cur.dorm_dorm}>
+                      <a href="goto_dorm_dorm">
+                          <i class="iconfont">&#xe6a7;</i>
+                          房间与床位管理
+                      </a>
+                  </li>
+              </ul>
+          </li>
+          <li class="list" >
+              <a href="javascript:;">
+                  <i class="iconfont">&#xe6a3;</i>
+                  分配宿舍
+                  <i class="iconfont nav_right">&#xe697;</i>
+              </a>
+              <ul class="sub-menu {$opened['arrange']}">
+                  <li {$cur.arrange_checkin}>
+                      <a href="goto_checkin">
+                          <i class="iconfont">&#xe6a7;</i>
+                          入住
+                      </a>
+                  </li>
+                  <li {$cur.arrange_checkout}>
+                      <a href="goto_checkout">
+                          <i class="iconfont">&#xe6a7;</i>
+                          退宿
+                      </a>
+                  </li>
+                  <li {$cur.arrange_change}>
+                      <a href="goto_change">
+                          <i class="iconfont">&#xe6a7;</i>
+                          调换宿舍
+                      </a>
+                  </li>
+              </ul>
+          </li>
+          <li class="list" >
+              <a href="goto_stat">
+                  <i class="iconfont">&#xe6a3;</i>
+                  宿舍统计查询
+                  <i class="iconfont nav_right">&#xe697;</i>
+              </a>
+          </li>
+          <li class="list" >
+              <a href="goto_userinfo">
+                  <i class="iconfont">&#xe6a3;</i>
+                  个人中心
+                  <i class="iconfont nav_right">&#xe697;</i>
+              </a>
+          </li>
+      </ul>
+    </div>
+  </div>
