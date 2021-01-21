@@ -1,0 +1,78 @@
+.el-header{
+            background-color: #545c64;
+            color: #fdcb6e;
+            line-height: 60px;
+          }
+          .el-aside {
+            background-color:#545c64;
+            color: #333;
+            text-align: left;
+            line-height: 60px;
+            
+          }
+          .el-main {
+            background-color: #ffffff;
+            color: #333;
+            
+            line-height: 40px;
+          }
+          body > .el-container {
+            margin-bottom: 40px;
+
+          }
+          .el-dropdown-link {
+            cursor: pointer;
+            color: #fdcb6e;
+          }
+          .el-icon-arrow-down {
+            font-size: 12px;
+          }
+          .el-dropdown-menu1 {
+            background-color: #545c64;
+            color: #fdcb6e;
+          }
+        
+          .el-menu {
+            border: 0px;
+            background-color: #545c64;
+            
+          }
+          .el-menu-item{
+              margin-left: 10px;
+              margin-right: 10px;
+          }
+          .divider {
+            background-color: #fdcb6e;
+            height: 3px;
+          }
+          
+          
+  .time {
+    font-size: 13px;
+    color: #999;
+  }
+  
+  .bottom {
+    margin-top: 5px;
+    line-height: 12px;
+  }
+
+  .button {
+    padding: 0;
+    float: right;
+  }
+
+  .image {
+    width: 100%;
+    display: block;
+  }
+
+  .clearfix:before,
+  .clearfix:after {
+      display: table;
+      content: "";
+  }
+  
+  .clearfix:after {
+      clear: both
+  }
