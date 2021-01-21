@@ -6,7 +6,7 @@ vue + elementUI + axios / thinkphp + X-admin / go
 ### 部署说明
 
 #### thinkPHP
-- 用PHP5.6，部署一个thinkphp站点，所有文件均在`thinkphp`文件夹中
+- 用PHP5.6部署一个thinkphp站点，所有文件均在`thinkphp`文件夹中
 - `application`中，`admin`为后台管理系统，`customer`为用户端
 
 #### mySQL
