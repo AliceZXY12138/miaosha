@@ -27,7 +27,7 @@ func failOnError(err error, msg string) {
 }
 
 func send(msg string){
-	conn, err := amqp.Dial("amqp://root:18273645@101.37.13.45:5672/")
+	conn, err := amqp.Dial("amqp://username:password@101.37.13.45:5672/")//设置rabbitMQ的账号密码
 	failOnError(err, "Failed to connect to RabbitMQ")
 	defer conn.Close()
 
@@ -45,8 +45,6 @@ func send(msg string){
 	)
 	failOnError(err, "Failed to declare a queue")
 
-	//body := "test"
-	//body := "{\"sno\": [\"2001210111\",\"2001210112\",\"2001210113\",\"2001210114\"],\"building_id\": \"3\",\"gender\": \"男\",\"count\": \"1\"}"
 	body := msg
 
 	err = ch.Publish(
