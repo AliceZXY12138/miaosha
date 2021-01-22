@@ -17,9 +17,9 @@ return [
     // 数据库名
     'database'        => 'miaosha',
     // 用户名
-    'username'        => 'root',
+    'username'        => '',
     // 密码
-    'password'        => '18273645',
+    'password'        => '',
     // 端口
     'hostport'        => '',
     // 连接dsn
