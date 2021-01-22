@@ -22,7 +22,7 @@ func failOnError(err error, msg string) {
 
 
 func main(){
-	conn, err := amqp.Dial("amqp://root:18273645@101.37.13.45:5672/")
+	conn, err := amqp.Dial("amqp://username:password@101.37.13.45:5672/")//设置rabbitMQ的账号密码
 	failOnError(err, "Failed to connect to RabbitMQ")
 	defer conn.Close()
 
@@ -53,7 +53,7 @@ func main(){
 	  
 	forever := make(chan bool)
 
-	dsn := "root:18273645@tcp(localhost:3306)/miaosha?charset=utf8mb4&parseTime=True&loc=Local"
+	dsn := "username:password@tcp(localhost:3306)/miaosha?charset=utf8mb4&parseTime=True&loc=Local"//设置mysql的账号密码
 	//连接数据库
 	db, err := gorm.Open(mysql.Open(dsn), &gorm.Config{})
 	if err != nil {
