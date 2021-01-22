@@ -12,7 +12,6 @@ vue + elementUI + axios / thinkphp + X-admin / go
 #### mySQL
 - 创建名为miaosha的数据库，用`mysql/miaosha.sql`导入数据
 - 在`thinkphp/application/database.php`中进行相应设置
-- 用户名为root，密码为18273645
 
 #### Go
 - 用户端秒杀商品时使用`go`操作`rabbitMQ`，相关文件均在`go`文件夹中
